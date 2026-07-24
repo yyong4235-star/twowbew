@@ -1,56 +1,24 @@
 <!doctype html>
-<html lang="vi">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="DJ ELECTRONICS CO., LTD cung cap bo sac nhanh nang luong moi, BMS, PCB/SMT va dich vu OEM/ODM tai Viet Nam."
-    />
-    <title>DJ ELECTRONICS CO., LTD</title>
-    <link rel="preconnect" href="https://images.unsplash.com" />
-    <link rel="stylesheet" href="./styles.css" />
+    <meta name="robots" content="noindex" />
+    <title>DJ ELECTRONICS Admin</title>
   </head>
   <body>
-    <header class="site-header" data-elevated="false">
-      <a class="brand" href="#home" aria-label="DJ ELECTRONICS home">
-        <span class="brand-mark"><img src="./assets/brand/logo.png" alt="DJ ELECTRONICS logo" /></span>
-        <span class="brand-copy">
-          <strong>DJ ELECTRONICS</strong>
-          <span>Power Electronics Manufacturing</span>
-        </span>
-      </a>
-
-      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <nav class="main-nav" aria-label="Primary navigation">
-        <a href="#home" data-route="home"></a>
-        <a href="#products" data-route="products"></a>
-        <a href="#manufacturing" data-route="manufacturing"></a>
-        <a href="#oem" data-route="oem"></a>
-        <a href="#about" data-route="about"></a>
-        <a href="#contact" data-route="contact"></a>
-      </nav>
-
-      <div class="header-actions">
-        <div class="language-switch" aria-label="Language switcher">
-          <button type="button" data-lang="vi" aria-pressed="true">VI</button>
-          <button type="button" data-lang="en" aria-pressed="false">EN</button>
-          <button type="button" data-lang="zh" aria-pressed="false">中文</button>
-        </div>
-        <a class="header-cta" href="mailto:congtytnhhthietbidientudj@gmail.com"></a>
-      </div>
-    </header>
-
-    <main id="app" tabindex="-1"></main>
-
-    <footer class="site-footer" id="site-footer"></footer>
-
-    <script src="./identity-redirect.js"></script>
-    <script src="./script.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on('init', function (user) {
+          if (!user) {
+            window.netlifyIdentity.on('login', function () {
+              document.location.href = '/admin/';
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
