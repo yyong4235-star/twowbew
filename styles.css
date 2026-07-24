@@ -571,18 +571,41 @@ button {
   box-shadow: 0 22px 60px rgba(8, 26, 43, 0.14);
 }
 
-.card-image {
-  display: block;
+.card-media {
+  position: relative;
+  display: grid;
   width: calc(100% + 48px);
   aspect-ratio: 16 / 10;
   margin: -24px -24px 20px;
-  object-fit: cover;
+  place-items: center;
+  overflow: hidden;
   background: #dbe7ed;
+}
+
+.card-media::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(5, 21, 30, 0.22), rgba(5, 21, 30, 0.34)), var(--card-image);
+  background-position: center;
+  background-size: cover;
+  filter: blur(15px) saturate(1.15);
+  transform: scale(1.1);
+}
+
+.card-image {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   transition: transform 450ms var(--ease), filter 220ms var(--ease);
 }
 
 .card:hover .card-image {
-  transform: scale(1.035);
+  transform: scale(1.025);
 }
 
 .card::before,
@@ -626,8 +649,8 @@ button {
   backdrop-filter: blur(10px);
 }
 
-.dark .card-image,
-.home-solutions .card-image {
+.dark .card-media,
+.home-solutions .card-media {
   opacity: 0.94;
   filter: saturate(1.08) contrast(1.05);
   box-shadow: 0 18px 46px rgba(0, 0, 0, 0.18);
@@ -1277,7 +1300,7 @@ button {
     padding: 18px;
   }
 
-  .card-image {
+  .card-media {
     width: calc(100% + 36px);
     margin: -18px -18px 18px;
   }

@@ -66,7 +66,9 @@ function card(item, index, images = getImages("productImages")) {
     .join("");
   return `
     <article class="card">
-      <img class="card-image" src="${image}" alt="${item.title || item.name || item.mode}" loading="lazy" />
+      <div class="card-media" style="--card-image: url('${image}')">
+        <img class="card-image" src="${image}" alt="${item.title || item.name || item.mode}" loading="lazy" />
+      </div>
       <span class="icon">${String(index + 1).padStart(2, "0")}</span>
       <h3>${item.title || item.name || item.mode}</h3>
       <p>${item.text || item.description}</p>
