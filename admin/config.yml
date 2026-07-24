@@ -1,0 +1,273 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+media_folder: "assets/cms"
+public_folder: "/assets/cms"
+publish_mode: simple
+
+image_list: &image_list
+  widget: list
+  summary: "{{fields.image}}"
+  field:
+    label: Image
+    name: image
+    widget: image
+
+metric_list: &metric_list
+  widget: list
+  fields:
+    - { label: Label, name: label, widget: string }
+    - { label: Text, name: text, widget: text }
+
+tag_list: &tag_list
+  widget: list
+  field: { label: Tag, name: tag, widget: string }
+
+card_highlights: &card_highlights
+  widget: list
+  fields:
+    - { label: Title, name: title, widget: string }
+    - { label: Text, name: text, widget: text }
+    - label: Tags
+      name: tags
+      <<: *tag_list
+
+product_items: &product_items
+  widget: list
+  fields:
+    - { label: Title, name: title, widget: string }
+    - { label: Description, name: description, widget: text }
+    - label: Applications
+      name: applications
+      <<: *tag_list
+    - label: Capabilities
+      name: capabilities
+      <<: *tag_list
+
+manufacturing_items: &manufacturing_items
+  widget: list
+  fields:
+    - { label: Name, name: name, widget: string }
+    - { label: Description, name: description, widget: text }
+    - { label: Customer Value, name: customerValue, widget: text }
+
+oem_modes: &oem_modes
+  widget: list
+  fields:
+    - { label: Mode, name: mode, widget: string }
+    - { label: Description, name: description, widget: text }
+    - { label: Best For, name: bestFor, widget: text }
+
+process_items: &process_items
+  widget: list
+  fields:
+    - { label: Title, name: title, widget: string }
+    - { label: Text, name: text, widget: text }
+
+fact_items: &fact_items
+  widget: list
+  fields:
+    - { label: Label, name: label, widget: string }
+    - { label: Value, name: value, widget: text }
+
+page_fields: &page_fields
+  - { label: Meta Title, name: metaTitle, widget: string }
+  - label: Navigation
+    name: nav
+    widget: object
+    fields:
+      - { label: Home, name: home, widget: string }
+      - { label: Products, name: products, widget: string }
+      - { label: Manufacturing, name: manufacturing, widget: string }
+      - { label: OEM/ODM, name: oem, widget: string }
+      - { label: About, name: about, widget: string }
+      - { label: Contact, name: contact, widget: string }
+  - label: CTA
+    name: cta
+    widget: object
+    fields:
+      - { label: Contact, name: contact, widget: string }
+      - { label: Email, name: email, widget: string }
+      - { label: Call, name: call, widget: string }
+      - { label: Products, name: products, widget: string }
+  - label: Home
+    name: home
+    widget: object
+    collapsed: true
+    fields:
+      - { label: Eyebrow, name: eyebrow, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: Panel Title, name: panelTitle, widget: string }
+      - label: Metrics
+        name: metrics
+        <<: *metric_list
+      - { label: Sections Title, name: sectionsTitle, widget: string }
+      - { label: Sections Intro, name: sectionsIntro, widget: text }
+      - label: Highlights
+        name: highlights
+        <<: *card_highlights
+      - { label: Band Title, name: bandTitle, widget: string }
+      - { label: Band Text, name: bandText, widget: text }
+  - label: Products
+    name: products
+    widget: object
+    collapsed: true
+    fields:
+      - { label: Eyebrow, name: eyebrow, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - label: Items
+        name: items
+        <<: *product_items
+  - label: Manufacturing
+    name: manufacturing
+    widget: object
+    collapsed: true
+    fields:
+      - { label: Eyebrow, name: eyebrow, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: Split Title, name: splitTitle, widget: string }
+      - { label: Split Text, name: splitText, widget: text }
+      - label: Capabilities
+        name: capabilities
+        <<: *manufacturing_items
+  - label: OEM/ODM
+    name: oem
+    widget: object
+    collapsed: true
+    fields:
+      - { label: Eyebrow, name: eyebrow, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - label: Modes
+        name: modes
+        <<: *oem_modes
+      - { label: Process Title, name: processTitle, widget: string }
+      - label: Process
+        name: process
+        <<: *process_items
+  - label: About
+    name: about
+    widget: object
+    collapsed: true
+    fields:
+      - { label: Eyebrow, name: eyebrow, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: Body, name: body, widget: text }
+      - label: Facts
+        name: facts
+        <<: *fact_items
+  - label: Contact
+    name: contact
+    widget: object
+    collapsed: true
+    fields:
+      - { label: Eyebrow, name: eyebrow, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - label: Details Labels
+        name: details
+        widget: object
+        fields:
+          - { label: Phone, name: phone, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Address, name: address, widget: string }
+      - { label: Privacy Label, name: privacyLabel, widget: string }
+      - { label: Privacy Text, name: privacyText, widget: text }
+
+privacy_fields: &privacy_fields
+  - { label: Title, name: title, widget: string }
+  - { label: Subtitle, name: subtitle, widget: text }
+  - { label: Updated, name: updated, widget: string }
+  - label: Sections
+    name: sections
+    widget: list
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Text, name: text, widget: text }
+
+collections:
+  - name: settings
+    label: Site Settings
+    files:
+      - label: Company and Assets
+        name: site
+        file: content/site.json
+        format: json
+        fields:
+          - label: Company
+            name: company
+            widget: object
+            fields:
+              - { label: Vietnamese Legal Name, name: legalNameVi, widget: string }
+              - { label: English Legal Name, name: legalNameEn, widget: string }
+              - { label: Short Name, name: shortName, widget: string }
+              - { label: Founded Year, name: foundedYear, widget: string }
+              - { label: Address, name: address, widget: text }
+              - { label: Phone Display, name: phone, widget: string }
+              - { label: Phone Link, name: phoneHref, widget: string }
+              - { label: Email, name: email, widget: string }
+          - label: Assets
+            name: assets
+            widget: object
+            fields:
+              - { label: Logo, name: logo, widget: image }
+              - { label: Hero Background, name: heroBackground, widget: image }
+              - { label: Home Solutions Background, name: homeSolutionsBackground, widget: image }
+              - { label: About Main Image, name: aboutMain, widget: image }
+              - { label: Manufacturing Split Image URL, name: manufacturingSplit, widget: string }
+              - { label: OEM Split Image URL, name: oemSplit, widget: string }
+              - { label: Contact Band Image URL, name: contactBand, widget: string }
+              - label: Home Images
+                name: homeImages
+                <<: *image_list
+              - label: Product Images
+                name: productImages
+                <<: *image_list
+              - label: Manufacturing Images
+                name: manufacturingImages
+                <<: *image_list
+              - label: OEM Images
+                name: oemImages
+                <<: *image_list
+  - name: pages
+    label: Page Content
+    files:
+      - label: Vietnamese Pages
+        name: vi
+        file: content/pages/vi.json
+        format: json
+        fields: *page_fields
+      - label: English Pages
+        name: en
+        file: content/pages/en.json
+        format: json
+        fields: *page_fields
+      - label: Chinese Pages
+        name: zh
+        file: content/pages/zh.json
+        format: json
+        fields: *page_fields
+  - name: privacy
+    label: Privacy Policy
+    files:
+      - label: Vietnamese Privacy
+        name: privacy_vi
+        file: content/privacy/vi.json
+        format: json
+        fields: *privacy_fields
+      - label: English Privacy
+        name: privacy_en
+        file: content/privacy/en.json
+        format: json
+        fields: *privacy_fields
+      - label: Chinese Privacy
+        name: privacy_zh
+        file: content/privacy/zh.json
+        format: json
+        fields: *privacy_fields

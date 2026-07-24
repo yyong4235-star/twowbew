@@ -1,0 +1,281 @@
+{
+  "metaTitle": "DJ ELECTRONICS CO., LTD | 越南新能源电子硬件制造",
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "manufacturing": "制造能力",
+    "oem": "OEM/ODM",
+    "about": "关于我们",
+    "contact": "联系"
+  },
+  "cta": {
+    "contact": "立即联系",
+    "email": "发送邮件",
+    "call": "拨打电话",
+    "products": "查看产品"
+  },
+  "home": {
+    "eyebrow": "越南本地电源电子硬件合作伙伴",
+    "title": "面向新能源硬件的充电器、BMS 与 PCB/SMT 制造服务",
+    "intro": "DJ ELECTRONICS CO., LTD 为电子制造、轻型电动车和储能客户提供快充充电器、BMS 管理系统、锂电池保护板、PCB/SMT 加工和 PACK 组装服务。",
+    "panelTitle": "核心能力",
+    "metrics": [
+      {
+        "label": "OEM / ODM",
+        "text": "支持贴牌、方案修改和按客户参数开发"
+      },
+      {
+        "label": "SMT + PACK",
+        "text": "整合电路板贴片、元器件焊接、电池封装和成品组装"
+      },
+      {
+        "label": "越南本地交付",
+        "text": "便于服务越南本地企业与跨境客户"
+      }
+    ],
+    "sectionsTitle": "为采购与供应链团队提供的硬件配套方案",
+    "sectionsIntro": "网站重点呈现 B2B 客户合作前需要评估的信息：产品范围、生产能力、定制方式和清晰的联系渠道。",
+    "highlights": [
+      {
+        "title": "新能源充电器",
+        "text": "各类规格快充充电器、车载储能充电器和设备专用电源充电器。",
+        "tags": [
+          "快充",
+          "储能",
+          "设备电源"
+        ]
+      },
+      {
+        "title": "BMS 与电池保护板",
+        "text": "锂电池管理系统、通用锂电池保护板和大功率储能电池保护板。",
+        "tags": [
+          "BMS",
+          "锂电池",
+          "保护板"
+        ]
+      },
+      {
+        "title": "PCB/SMT 与半成品",
+        "text": "为电子设备厂商提供 PCB 加工、SMT 贴片和电路板半成品代工生产。",
+        "tags": [
+          "PCB",
+          "SMT",
+          "组装"
+        ]
+      }
+    ],
+    "bandTitle": "需要评估新能源电子硬件供应商？",
+    "bandText": "发送参数、样品或应用需求。DJ 将根据情况提供 OEM、ODM 或专项定制开发建议。"
+  },
+  "products": {
+    "eyebrow": "产品矩阵",
+    "title": "核心产品与制造服务",
+    "intro": "产品按采购需求组织：充电电源、电池管理、电路板加工和半成品代工。",
+    "items": [
+      {
+        "title": "新能源快充充电器",
+        "description": "适用于两轮 / 三轮电动车、便携式储能和专用电子设备的多规格快充充电器。",
+        "applications": [
+          "两轮 / 三轮电动车",
+          "便携式储能",
+          "专用充电设备"
+        ],
+        "capabilities": [
+          "OEM 贴牌",
+          "参数调整",
+          "批量生产"
+        ]
+      },
+      {
+        "title": "车载储能与设备专用充电器",
+        "description": "适用于车载储能系统、设备电源模块和需要稳定输出的应用场景。",
+        "applications": [
+          "储能系统",
+          "工控设备",
+          "定制电源组件"
+        ],
+        "capabilities": [
+          "能效优化",
+          "按功率设计",
+          "成品组装"
+        ]
+      },
+      {
+        "title": "锂电池 BMS 管理系统",
+        "description": "为不同工况下的电池包提供 BMS 系统和锂电池保护板，提升电池管理安全性。",
+        "applications": [
+          "锂电池",
+          "储能电池包",
+          "便携式电动设备"
+        ],
+        "capabilities": [
+          "BMS 方案",
+          "电压 / 电流定制",
+          "按应用环境优化"
+        ]
+      },
+      {
+        "title": "大功率电池保护板",
+        "description": "为需要稳定运行的储能电池系统提供通用和大功率保护板。",
+        "applications": [
+          "户用储能",
+          "备用电源",
+          "大功率电池组"
+        ],
+        "capabilities": [
+          "保护方案设计",
+          "按单生产",
+          "出厂质量把控"
+        ]
+      },
+      {
+        "title": "PCB 与 SMT 贴片",
+        "description": "根据产品要求进行电路板加工、自动化 SMT 贴片和元器件焊接。",
+        "applications": [
+          "电子设备工厂",
+          "数码硬件",
+          "工控设备"
+        ],
+        "capabilities": [
+          "SMT",
+          "元器件焊接",
+          "半成品检测"
+        ]
+      },
+      {
+        "title": "电路板半成品代工",
+        "description": "为需要越南本地稳定制造能力的客户提供电路板半成品和组件生产。",
+        "applications": [
+          "电子组装",
+          "外协加工",
+          "跨境供应链"
+        ],
+        "capabilities": [
+          "按单生产",
+          "按需包装",
+          "灵活交付"
+        ]
+      }
+    ]
+  },
+  "manufacturing": {
+    "eyebrow": "制造能力",
+    "title": "从电路方案到成品组装",
+    "intro": "DJ 结合研发团队、SMT 贴片线和 PACK 组装工厂，在同一生产体系中把控多个关键环节。",
+    "splitTitle": "一体化能力缩短供应链响应时间",
+    "splitText": "从贴片、焊接、电池封装到成品组装，一体化生产模式帮助客户更好地管理进度、质量和成本。",
+    "capabilities": [
+      {
+        "name": "技术研发",
+        "description": "引入电源和电池管理方案技术，持续优化产品稳定性和能效转化。",
+        "customerValue": "适合需要调整参数或开发专属产品的客户。"
+      },
+      {
+        "name": "自动化 SMT",
+        "description": "SMT 贴片生产线支持 PCB 加工和电子电路组件生产。",
+        "customerValue": "减少客户对多个分散供应商的依赖。"
+      },
+      {
+        "name": "元器件焊接",
+        "description": "配合 SMT 完成电路板、半成品和模块组件。",
+        "customerValue": "支持从半成品到成品的不同订单需求。"
+      },
+      {
+        "name": "电池 PACK",
+        "description": "标准化 PACK 工厂支持电池组装和按产品需求进行封装。",
+        "customerValue": "适合储能和轻型电动车客户。"
+      },
+      {
+        "name": "成品组装",
+        "description": "组织电路板、外壳、电池和充电器或电子模块成品生产。",
+        "customerValue": "让客户用一个生产对接窗口管理进度。"
+      },
+      {
+        "name": "出厂质量控制",
+        "description": "交付前集中进行质量检查，支持稳定批量生产。",
+        "customerValue": "帮助客户在扩大订单时降低风险。"
+      }
+    ]
+  },
+  "oem": {
+    "eyebrow": "OEM / ODM 合作",
+    "title": "面向生产和贸易客户的三种合作模式",
+    "intro": "DJ 支持从成品贴牌，到参数修改，再到按具体使用工况开发硬件方案。",
+    "modes": [
+      {
+        "mode": "OEM",
+        "description": "依据客户品牌标识、外观要求和包装规范进行成品贴牌量产。",
+        "bestFor": "适合需要稳定货源和快速交付的品牌客户。"
+      },
+      {
+        "mode": "ODM",
+        "description": "依托 DJ 现有成熟电路方案，按需修改结构、参数或软件输出。",
+        "bestFor": "适合希望缩短产品开发周期的客户。"
+      },
+      {
+        "mode": "专项定制开发",
+        "description": "根据使用工况、电压、电流和特殊防护需求，从零开发充电器、BMS 或保护板。",
+        "bestFor": "适合参数特殊或使用环境有特殊要求的项目。"
+      }
+    ],
+    "processTitle": "建议合作流程",
+    "process": [
+      {
+        "title": "需求沟通",
+        "text": "客户发送参数、样品、图纸或使用场景。"
+      },
+      {
+        "title": "方案评估",
+        "text": "DJ 判断适合 OEM、ODM 还是专项定制开发。"
+      },
+      {
+        "title": "样品确认",
+        "text": "双方确认结构、参数、材料和包装要求。"
+      },
+      {
+        "title": "生产交付",
+        "text": "按约定组织生产、质量控制和交付。"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "关于公司",
+    "title": "位于越南老街的新能源电子企业",
+    "intro": "DJ ELECTRONICS CO., LTD 成立于 2019 年，专注充电电源、电池管理、电路板加工和 PACK 组装。",
+    "body": "公司集技术研发、电路板加工、电池 PACK 组装和成品生产于一体。依托越南本地工厂区位优势和新能源电子硬件经验，DJ 为新能源和电子制造客户提供稳定、有竞争力的产品及生产服务。",
+    "facts": [
+      {
+        "label": "法定名称",
+        "value": "CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ"
+      },
+      {
+        "label": "英文全称",
+        "value": "DJ ELECTRONIC EQUIPMENT COMPANY LIMITED"
+      },
+      {
+        "label": "英文简写",
+        "value": "DJ ELECTRONICS CO., LTD"
+      },
+      {
+        "label": "成立时间",
+        "value": "2019"
+      },
+      {
+        "label": "地址",
+        "value": "Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "联系我们",
+    "title": "发送产品需求、参数或 OEM/ODM 合作需求",
+    "intro": "可通过电话或邮箱直接联系 DJ。建议在邮件中说明应用行业、电压 / 电流参数、预计数量和包装要求。",
+    "details": {
+      "phone": "电话",
+      "email": "电子邮箱",
+      "address": "地址"
+    },
+    "privacyLabel": "隐私政策",
+    "privacyText": "查看官网和 BMS Protection Board Manager 应用使用的隐私政策。"
+  }
+}

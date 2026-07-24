@@ -1,0 +1,47 @@
+{
+  "company": {
+    "legalNameVi": "CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ",
+    "legalNameEn": "DJ ELECTRONIC EQUIPMENT COMPANY LIMITED",
+    "shortName": "DJ ELECTRONICS CO., LTD",
+    "foundedYear": "2019",
+    "address": "Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam",
+    "phone": "+84 963 162 922",
+    "phoneHref": "+84963162922",
+    "email": "congtytnhhthietbidientudj@gmail.com"
+  },
+  "assets": {
+    "logo": "./assets/brand/logo.png",
+    "heroBackground": "./assets/brand/hero-logo-bg.png",
+    "homeSolutionsBackground": "./assets/home-solutions-bg.png",
+    "aboutMain": "./assets/brand/about-main.jpg",
+    "manufacturingSplit": "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&w=1200&q=82",
+    "oemSplit": "https://images.unsplash.com/photo-1581093806997-124204d9fa9d?auto=format&fit=crop&w=1200&q=82",
+    "contactBand": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+    "homeImages": [
+      "./assets/home/home-01.jpg",
+      "./assets/home/home-02.jpg",
+      "./assets/home/home-03.jpg"
+    ],
+    "productImages": [
+      "./assets/products/product-01.jpg",
+      "./assets/products/product-02.jpg",
+      "./assets/products/product-03.jpg",
+      "./assets/products/product-04.jpg",
+      "./assets/products/product-05.jpg",
+      "./assets/products/product-06.jpg"
+    ],
+    "manufacturingImages": [
+      "./assets/manufacturing/manufacturing-01.jpg",
+      "./assets/manufacturing/manufacturing-02.jpg",
+      "./assets/manufacturing/manufacturing-03.jpg",
+      "./assets/manufacturing/manufacturing-04.jpg",
+      "./assets/manufacturing/manufacturing-05.jpg",
+      "./assets/manufacturing/manufacturing-06.jpg"
+    ],
+    "oemImages": [
+      "./assets/oem/oem-01.jpg",
+      "./assets/oem/oem-02.jpg",
+      "./assets/oem/oem-03.jpg"
+    ]
+  }
+}

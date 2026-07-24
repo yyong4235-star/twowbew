@@ -1,0 +1,281 @@
+{
+  "metaTitle": "DJ ELECTRONICS CO., LTD | Sản xuất điện tử năng lượng mới tại Việt Nam",
+  "nav": {
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "manufacturing": "Sản xuất",
+    "oem": "OEM/ODM",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ"
+  },
+  "cta": {
+    "contact": "Liên hệ ngay",
+    "email": "Gửi email",
+    "call": "Gọi ngay",
+    "products": "Xem sản phẩm"
+  },
+  "home": {
+    "eyebrow": "Đối tác phần cứng điện tử tại Việt Nam",
+    "title": "Sản xuất nguồn sạc, BMS và PCB/SMT cho ngành năng lượng mới",
+    "intro": "DJ ELECTRONICS CO., LTD cung cấp bộ sạc nhanh, hệ thống quản lý pin BMS, bảng bảo vệ pin lithium, gia công PCB/SMT và lắp ráp PACK cho khách hàng sản xuất điện tử, xe điện và lưu trữ năng lượng.",
+    "panelTitle": "Năng lực trọng tâm",
+    "metrics": [
+      {
+        "label": "OEM / ODM",
+        "text": "Hỗ trợ dán nhãn, chỉnh sửa phương án và phát triển theo thông số riêng"
+      },
+      {
+        "label": "SMT + PACK",
+        "text": "Tích hợp gia công mạch, hàn linh kiện, lắp ráp pin và thành phẩm"
+      },
+      {
+        "label": "Giao hàng tại Việt Nam",
+        "text": "Phản hồi nhanh, thuận tiện cho doanh nghiệp nội địa và khách hàng xuyên biên giới"
+      }
+    ],
+    "sectionsTitle": "Giải pháp phần cứng cho khách hàng mua hàng và chuỗi cung ứng",
+    "sectionsIntro": "Website tập trung vào các hạng mục mà khách hàng B2B cần đánh giá trước khi hợp tác: sản phẩm, năng lực sản xuất, phương thức tùy chỉnh và kênh liên hệ rõ ràng.",
+    "highlights": [
+      {
+        "title": "Nguồn sạc năng lượng mới",
+        "text": "Bộ sạc nhanh nhiều quy cách, sạc lưu trữ trên xe và nguồn sạc chuyên dụng cho thiết bị.",
+        "tags": [
+          "Fast charger",
+          "Energy storage",
+          "Device power"
+        ]
+      },
+      {
+        "title": "BMS và bảng bảo vệ pin",
+        "text": "Giải pháp quản lý pin lithium, bảng bảo vệ thông dụng và bảng bảo vệ công suất lớn cho lưu trữ năng lượng.",
+        "tags": [
+          "BMS",
+          "Lithium battery",
+          "Protection board"
+        ]
+      },
+      {
+        "title": "PCB/SMT và bán thành phẩm",
+        "text": "Gia công bảng mạch, dán linh kiện SMT và sản xuất bán thành phẩm cho các nhà máy thiết bị điện tử.",
+        "tags": [
+          "PCB",
+          "SMT",
+          "Assembly"
+        ]
+      }
+    ],
+    "bandTitle": "Bạn cần đánh giá nhà cung cấp cho sản phẩm điện tử năng lượng mới?",
+    "bandText": "Gửi thông số, mẫu hoặc yêu cầu ứng dụng. Đội ngũ DJ sẽ phản hồi theo hướng OEM, ODM hoặc phát triển riêng."
+  },
+  "products": {
+    "eyebrow": "Danh mục sản phẩm",
+    "title": "Sản phẩm và dịch vụ sản xuất chính",
+    "intro": "Các hạng mục được tổ chức theo nhu cầu mua hàng thực tế: nguồn sạc, quản lý pin, bảng mạch và sản xuất bán thành phẩm.",
+    "items": [
+      {
+        "title": "Bộ sạc nhanh năng lượng mới",
+        "description": "Các quy cách bộ sạc nhanh cho xe điện hai bánh, ba bánh, thiết bị lưu trữ và ứng dụng điện tử chuyên dụng.",
+        "applications": [
+          "Xe điện hai / ba bánh",
+          "Nguồn lưu trữ di động",
+          "Thiết bị cần nguồn sạc riêng"
+        ],
+        "capabilities": [
+          "OEM nhãn hiệu",
+          "Điều chỉnh thông số",
+          "Sản xuất số lượng lớn"
+        ]
+      },
+      {
+        "title": "Sạc lưu trữ trên xe và sạc thiết bị",
+        "description": "Nguồn sạc cho hệ thống lưu trữ trên xe, bộ nguồn thiết bị và các ứng dụng cần độ ổn định cao.",
+        "applications": [
+          "Lưu trữ năng lượng",
+          "Thiết bị công nghiệp",
+          "Tổ hợp nguồn tùy chỉnh"
+        ],
+        "capabilities": [
+          "Tối ưu hiệu suất",
+          "Thiết kế theo công suất",
+          "Lắp ráp thành phẩm"
+        ]
+      },
+      {
+        "title": "BMS quản lý pin lithium",
+        "description": "Hệ thống BMS và bảng bảo vệ pin lithium hỗ trợ quản lý an toàn cho bộ pin trong nhiều điều kiện sử dụng.",
+        "applications": [
+          "Pin lithium",
+          "Bộ pin lưu trữ",
+          "Thiết bị điện di động"
+        ],
+        "capabilities": [
+          "Phương án BMS",
+          "Tùy chỉnh điện áp / dòng",
+          "Tối ưu theo môi trường sử dụng"
+        ]
+      },
+      {
+        "title": "Bảng bảo vệ pin công suất lớn",
+        "description": "Bảng bảo vệ thông dụng và công suất lớn cho hệ thống pin lưu trữ cần vận hành ổn định.",
+        "applications": [
+          "Lưu trữ dân dụng",
+          "Nguồn dự phòng",
+          "Tổ hợp pin công suất cao"
+        ],
+        "capabilities": [
+          "Thiết kế bảo vệ",
+          "Sản xuất theo đơn",
+          "Kiểm soát chất lượng xuất xưởng"
+        ]
+      },
+      {
+        "title": "PCB và SMT",
+        "description": "Gia công bảng mạch, dán linh kiện bằng dây chuyền SMT tự động và hàn linh kiện theo yêu cầu sản phẩm.",
+        "applications": [
+          "Nhà máy điện tử",
+          "Thiết bị số",
+          "Thiết bị công nghiệp"
+        ],
+        "capabilities": [
+          "SMT",
+          "Hàn linh kiện",
+          "Kiểm tra bán thành phẩm"
+        ]
+      },
+      {
+        "title": "Bán thành phẩm mạch điện tử",
+        "description": "Sản xuất bán thành phẩm và cụm bảng mạch cho khách hàng cần năng lực gia công ổn định tại Việt Nam.",
+        "applications": [
+          "Lắp ráp điện tử",
+          "Gia công thuê ngoài",
+          "Chuỗi cung ứng xuyên biên giới"
+        ],
+        "capabilities": [
+          "Sản xuất theo đơn",
+          "Đóng gói theo yêu cầu",
+          "Giao hàng linh hoạt"
+        ]
+      }
+    ]
+  },
+  "manufacturing": {
+    "eyebrow": "Năng lực sản xuất",
+    "title": "Từ phương án mạch đến thành phẩm lắp ráp",
+    "intro": "DJ kết hợp đội ngũ R&D, dây chuyền SMT và nhà máy PACK để kiểm soát nhiều khâu trong cùng một hệ thống sản xuất.",
+    "splitTitle": "Năng lực tích hợp giúp rút ngắn phản hồi chuỗi cung ứng",
+    "splitText": "Từ dán linh kiện, hàn, đóng gói pin đến lắp ráp thành phẩm, mô hình sản xuất khép kín giúp khách hàng kiểm soát tiến độ, chất lượng và chi phí tốt hơn.",
+    "capabilities": [
+      {
+        "name": "R&D kỹ thuật",
+        "description": "Tiếp thu phương án nguồn và quản lý pin từ thị trường quốc tế, tối ưu độ ổn định và hiệu suất chuyển đổi.",
+        "customerValue": "Phù hợp khi khách hàng cần điều chỉnh thông số hoặc phát triển sản phẩm riêng."
+      },
+      {
+        "name": "SMT tự động",
+        "description": "Dây chuyền dán linh kiện hỗ trợ gia công PCB và các cụm mạch điện tử.",
+        "customerValue": "Giảm phụ thuộc vào nhiều nhà cung cấp rời rạc."
+      },
+      {
+        "name": "Hàn linh kiện",
+        "description": "Phối hợp với SMT để hoàn thiện bảng mạch, bán thành phẩm và cụm module.",
+        "customerValue": "Hỗ trợ đơn hàng linh hoạt từ bán thành phẩm đến thành phẩm."
+      },
+      {
+        "name": "PACK pin",
+        "description": "Nhà máy PACK tiêu chuẩn hỗ trợ lắp ráp bộ pin và đóng gói theo nhu cầu sản phẩm.",
+        "customerValue": "Phù hợp cho khách hàng trong ngành lưu trữ năng lượng và xe điện nhẹ."
+      },
+      {
+        "name": "Lắp ráp thành phẩm",
+        "description": "Tổ chức từ mạch, vỏ, pin đến thành phẩm nguồn sạc hoặc module điện tử.",
+        "customerValue": "Một đầu mối quản lý tiến độ sản xuất."
+      },
+      {
+        "name": "Kiểm soát xuất xưởng",
+        "description": "Tập trung kiểm tra chất lượng trước khi giao hàng để đảm bảo ổn định khi sản xuất số lượng lớn.",
+        "customerValue": "Giúp khách hàng giảm rủi ro khi mở rộng đơn hàng."
+      }
+    ]
+  },
+  "oem": {
+    "eyebrow": "Hợp tác OEM / ODM",
+    "title": "Ba mô hình hợp tác cho khách hàng sản xuất và thương mại",
+    "intro": "DJ hỗ trợ từ dán nhãn thành phẩm đến tùy chỉnh thông số và phát triển phần cứng theo điều kiện sử dụng cụ thể.",
+    "modes": [
+      {
+        "mode": "OEM",
+        "description": "Sản xuất thành phẩm theo nhận diện thương hiệu, yêu cầu ngoại quan và quy cách đóng gói của khách hàng.",
+        "bestFor": "Phù hợp với thương hiệu cần nguồn hàng ổn định và giao hàng nhanh."
+      },
+      {
+        "mode": "ODM",
+        "description": "Dựa trên phương án mạch hiện có của DJ, điều chỉnh cấu trúc, thông số hoặc đầu ra phần mềm theo nhu cầu.",
+        "bestFor": "Phù hợp với khách hàng muốn rút ngắn thời gian phát triển sản phẩm."
+      },
+      {
+        "mode": "Phát triển tùy chỉnh",
+        "description": "Thiết kế bộ sạc, BMS hoặc bảng bảo vệ từ đầu theo điều kiện sử dụng, điện áp, dòng điện và yêu cầu bảo vệ riêng.",
+        "bestFor": "Phù hợp với dự án có thông số đặc biệt hoặc môi trường sử dụng riêng."
+      }
+    ],
+    "processTitle": "Quy trình làm việc đề xuất",
+    "process": [
+      {
+        "title": "Trao đổi yêu cầu",
+        "text": "Khách hàng gửi thông số, mẫu, bản vẽ hoặc tình huống sử dụng."
+      },
+      {
+        "title": "Đánh giá phương án",
+        "text": "DJ xác định nên dùng OEM, ODM hay phát triển tùy chỉnh."
+      },
+      {
+        "title": "Xác nhận mẫu",
+        "text": "Hai bên thống nhất cấu trúc, thông số, vật liệu và yêu cầu đóng gói."
+      },
+      {
+        "title": "Sản xuất và giao hàng",
+        "text": "Tổ chức sản xuất, kiểm soát chất lượng và giao hàng theo thỏa thuận."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Về công ty",
+    "title": "Doanh nghiệp điện tử năng lượng mới đặt tại Lào Cai, Việt Nam",
+    "intro": "DJ ELECTRONICS CO., LTD được thành lập năm 2019, tập trung vào sản phẩm nguồn sạc, quản lý pin, gia công mạch điện tử và lắp ráp PACK.",
+    "body": "Công ty tích hợp nghiên cứu kỹ thuật, gia công bảng mạch, lắp ráp pin PACK và sản xuất thành phẩm. Với lợi thế nhà máy tại Việt Nam và kinh nghiệm trong phần cứng điện tử năng lượng mới, DJ cung cấp sản phẩm và dịch vụ sản xuất ổn định, có tính cạnh tranh cho khách hàng trong ngành năng lượng mới và điện tử.",
+    "facts": [
+      {
+        "label": "Tên pháp lý",
+        "value": "CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ"
+      },
+      {
+        "label": "Tên tiếng Anh",
+        "value": "DJ ELECTRONIC EQUIPMENT COMPANY LIMITED"
+      },
+      {
+        "label": "Tên viết tắt",
+        "value": "DJ ELECTRONICS CO., LTD"
+      },
+      {
+        "label": "Thành lập",
+        "value": "2019"
+      },
+      {
+        "label": "Địa chỉ",
+        "value": "Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Liên hệ",
+    "title": "Gửi yêu cầu sản phẩm, thông số hoặc nhu cầu OEM/ODM",
+    "intro": "Liên hệ trực tiếp với DJ qua điện thoại hoặc email. Vui lòng gửi ngành ứng dụng, thông số điện áp / dòng điện, số lượng dự kiến và yêu cầu đóng gói nếu có.",
+    "details": {
+      "phone": "Điện thoại",
+      "email": "Email",
+      "address": "Địa chỉ"
+    },
+    "privacyLabel": "Chính sách quyền riêng tư",
+    "privacyText": "Xem chính sách quyền riêng tư dùng cho website và ứng dụng BMS Protection Board Manager."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Privacy Policy",
+  "subtitle": "Applies to the DJ ELECTRONICS website and the BMS Protection Board Manager app.",
+  "updated": "Last Updated: July 24, 2026 | Effective Date: July 24, 2026",
+  "sections": [
+    {
+      "title": "1. Data Processing Principle",
+      "text": "The app is designed for local operation: local device connection, local data viewing, and local storage. It does not actively collect personally identifiable information, upload user data to servers, or use data for advertising, tracking, or profiling."
+    },
+    {
+      "title": "2. Data Processed",
+      "text": "The app may process BMS device operating data such as voltage, current, temperature, protection thresholds, balancing status, and fault status; user-saved configuration data; and local operation logs for troubleshooting. These data are stored locally on the user's device by default."
+    },
+    {
+      "title": "3. Bluetooth, Location, and USB Permissions",
+      "text": "Bluetooth is used only to scan, pair, connect, and communicate with BMS protection boards. On Android 11 and earlier, location permission may be required by the system for BLE scanning, but the app does not record or upload actual location. If USB or serial connection is supported, related permissions are used only for local device communication."
+    },
+    {
+      "title": "4. Purpose of Use",
+      "text": "Data is used only to connect BMS devices, display battery status, read or configure BMS parameters, improve communication stability, and support local debugging. It is not used for advertising, commercial analytics, data sale, or third-party sharing."
+    },
+    {
+      "title": "5. Storage, Deletion, and Security",
+      "text": "Operation and configuration data are stored locally by default. Users can delete data in the app or through system settings. When the app is uninstalled, the operating system usually removes app cache and local data."
+    },
+    {
+      "title": "6. Third-Party SDKs",
+      "text": "The current version does not integrate advertising, analytics, tracking, payment, map, cloud storage, or user analysis SDKs. If future versions integrate third-party services, this policy will be updated before use."
+    },
+    {
+      "title": "7. Children and User Rights",
+      "text": "The app is a professional BMS tool and is not directed to children. Users may view and delete local data, stop using the app, or contact us about privacy and data security questions."
+    },
+    {
+      "title": "8. Contact",
+      "text": "Company: CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ. Email: congtytnhhthietbidientudj@gmail.com. Phone: +84 963 162 922. Address: Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam."
+    }
+  ]
+}

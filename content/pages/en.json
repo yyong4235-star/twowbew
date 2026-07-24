@@ -1,0 +1,281 @@
+{
+  "metaTitle": "DJ ELECTRONICS CO., LTD | Vietnam Power Electronics Manufacturing",
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "manufacturing": "Manufacturing",
+    "oem": "OEM/ODM",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "cta": {
+    "contact": "Contact Sales",
+    "email": "Email Us",
+    "call": "Call Now",
+    "products": "View Products"
+  },
+  "home": {
+    "eyebrow": "Vietnam-based power electronics partner",
+    "title": "Chargers, BMS and PCB/SMT manufacturing for new energy hardware",
+    "intro": "DJ ELECTRONICS CO., LTD supplies fast chargers, battery management systems, lithium battery protection boards, PCB/SMT assembly and PACK assembly for electronics, light EV and energy storage customers.",
+    "panelTitle": "Core capabilities",
+    "metrics": [
+      {
+        "label": "OEM / ODM",
+        "text": "Brand labeling, solution adjustment and development to customer parameters"
+      },
+      {
+        "label": "SMT + PACK",
+        "text": "Integrated PCB assembly, welding, battery packaging and finished product assembly"
+      },
+      {
+        "label": "Vietnam delivery",
+        "text": "Fast response for local companies and cross-border customers"
+      }
+    ],
+    "sectionsTitle": "Hardware solutions for purchasing and supply chain teams",
+    "sectionsIntro": "The site focuses on what B2B buyers need to evaluate: product scope, production capability, customization options and clear contact channels.",
+    "highlights": [
+      {
+        "title": "New energy chargers",
+        "text": "Fast chargers, vehicle energy storage chargers and dedicated power chargers for equipment applications.",
+        "tags": [
+          "Fast charger",
+          "Energy storage",
+          "Device power"
+        ]
+      },
+      {
+        "title": "BMS and battery protection",
+        "text": "Lithium battery management systems, general protection boards and high-power storage battery protection boards.",
+        "tags": [
+          "BMS",
+          "Lithium battery",
+          "Protection board"
+        ]
+      },
+      {
+        "title": "PCB/SMT and semi-finished boards",
+        "text": "PCB assembly, SMT placement and semi-finished circuit board production for electronics manufacturers.",
+        "tags": [
+          "PCB",
+          "SMT",
+          "Assembly"
+        ]
+      }
+    ],
+    "bandTitle": "Need to evaluate a supplier for new energy electronics?",
+    "bandText": "Send specifications, samples or application requirements. DJ will respond with an OEM, ODM or custom development path."
+  },
+  "products": {
+    "eyebrow": "Product matrix",
+    "title": "Core products and manufacturing services",
+    "intro": "Product groups are organized around real purchasing needs: chargers, battery management, circuit boards and semi-finished production.",
+    "items": [
+      {
+        "title": "New energy fast chargers",
+        "description": "Multiple charger specifications for two-wheelers, three-wheelers, energy storage devices and dedicated electronics applications.",
+        "applications": [
+          "Two / three-wheel EV",
+          "Portable energy storage",
+          "Custom charging equipment"
+        ],
+        "capabilities": [
+          "OEM branding",
+          "Parameter adjustment",
+          "Volume production"
+        ]
+      },
+      {
+        "title": "Vehicle storage and equipment chargers",
+        "description": "Charging power supplies for vehicle storage systems, equipment power modules and applications requiring stable output.",
+        "applications": [
+          "Energy storage",
+          "Industrial equipment",
+          "Custom power assemblies"
+        ],
+        "capabilities": [
+          "Efficiency optimization",
+          "Power-based design",
+          "Finished assembly"
+        ]
+      },
+      {
+        "title": "Lithium battery BMS",
+        "description": "BMS systems and lithium battery protection boards for safer battery pack management in varied operating conditions.",
+        "applications": [
+          "Lithium batteries",
+          "Storage battery packs",
+          "Portable electric devices"
+        ],
+        "capabilities": [
+          "BMS solutions",
+          "Voltage / current customization",
+          "Application-based optimization"
+        ]
+      },
+      {
+        "title": "High-power battery protection boards",
+        "description": "General and high-power protection boards for storage battery systems that require stable operation.",
+        "applications": [
+          "Residential storage",
+          "Backup power",
+          "High-power battery packs"
+        ],
+        "capabilities": [
+          "Protection design",
+          "Made-to-order production",
+          "Outgoing quality control"
+        ]
+      },
+      {
+        "title": "PCB and SMT",
+        "description": "PCB processing, automated SMT placement and component welding according to product requirements.",
+        "applications": [
+          "Electronics factories",
+          "Digital hardware",
+          "Industrial control equipment"
+        ],
+        "capabilities": [
+          "SMT",
+          "Component welding",
+          "Semi-finished inspection"
+        ]
+      },
+      {
+        "title": "Semi-finished circuit assemblies",
+        "description": "Semi-finished boards and circuit assemblies for customers needing stable manufacturing capacity in Vietnam.",
+        "applications": [
+          "Electronics assembly",
+          "Outsourced manufacturing",
+          "Cross-border supply chains"
+        ],
+        "capabilities": [
+          "Order-based production",
+          "Custom packaging",
+          "Flexible delivery"
+        ]
+      }
+    ]
+  },
+  "manufacturing": {
+    "eyebrow": "Manufacturing capability",
+    "title": "From circuit solutions to finished assemblies",
+    "intro": "DJ combines R&D, SMT lines and PACK assembly to control several key stages within one production system.",
+    "splitTitle": "Integrated capability shortens supply chain response",
+    "splitText": "From SMT placement, welding and battery packaging to finished product assembly, an integrated model helps customers manage schedule, quality and cost.",
+    "capabilities": [
+      {
+        "name": "Technical R&D",
+        "description": "Adopts advanced power and battery management solutions and improves stability and conversion efficiency.",
+        "customerValue": "Useful when parameters need adjustment or a custom product path is required."
+      },
+      {
+        "name": "Automated SMT",
+        "description": "SMT placement lines support PCB processing and electronic circuit assemblies.",
+        "customerValue": "Reduces reliance on fragmented suppliers."
+      },
+      {
+        "name": "Component welding",
+        "description": "Works with SMT to complete boards, semi-finished products and module assemblies.",
+        "customerValue": "Supports orders from semi-finished boards to finished products."
+      },
+      {
+        "name": "Battery PACK",
+        "description": "Standard PACK assembly supports battery pack assembly and packaging for product needs.",
+        "customerValue": "Fits energy storage and light EV customers."
+      },
+      {
+        "name": "Finished assembly",
+        "description": "Organizes boards, housing, batteries and finished charger or electronic module production.",
+        "customerValue": "One accountable production contact."
+      },
+      {
+        "name": "Outgoing quality control",
+        "description": "Focuses on pre-shipment quality checks to support stable volume production.",
+        "customerValue": "Reduces risk when customers scale orders."
+      }
+    ]
+  },
+  "oem": {
+    "eyebrow": "OEM / ODM cooperation",
+    "title": "Three cooperation models for manufacturing and trading customers",
+    "intro": "DJ supports brand labeling, parameter adjustment and hardware development for specific operating conditions.",
+    "modes": [
+      {
+        "mode": "OEM",
+        "description": "Finished product manufacturing according to customer branding, appearance and packaging requirements.",
+        "bestFor": "Best for brands needing stable supply and fast delivery."
+      },
+      {
+        "mode": "ODM",
+        "description": "Based on DJ's existing circuit solutions, structure, parameters or software output can be adjusted as needed.",
+        "bestFor": "Best for customers who want to shorten product development time."
+      },
+      {
+        "mode": "Custom development",
+        "description": "Develop chargers, BMS or protection boards from the ground up based on operating conditions, voltage, current and protection needs.",
+        "bestFor": "Best for projects with special parameters or unique use environments."
+      }
+    ],
+    "processTitle": "Suggested workflow",
+    "process": [
+      {
+        "title": "Requirement discussion",
+        "text": "Customer sends specifications, samples, drawings or application scenarios."
+      },
+      {
+        "title": "Solution review",
+        "text": "DJ identifies whether OEM, ODM or custom development fits best."
+      },
+      {
+        "title": "Sample confirmation",
+        "text": "Both sides confirm structure, parameters, materials and packaging requirements."
+      },
+      {
+        "title": "Production and delivery",
+        "text": "Production, quality control and delivery are arranged as agreed."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A new energy electronics company based in Lào Cai, Vietnam",
+    "intro": "DJ ELECTRONICS CO., LTD was established in 2019 and focuses on charging power supplies, battery management, PCB assembly and PACK assembly.",
+    "body": "The company integrates technical research, circuit board processing, battery PACK assembly and finished product manufacturing. With a Vietnam factory location and experience in new energy electronics hardware, DJ provides stable and competitive products and production services for new energy and electronics customers.",
+    "facts": [
+      {
+        "label": "Legal name",
+        "value": "CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ"
+      },
+      {
+        "label": "English name",
+        "value": "DJ ELECTRONIC EQUIPMENT COMPANY LIMITED"
+      },
+      {
+        "label": "Short name",
+        "value": "DJ ELECTRONICS CO., LTD"
+      },
+      {
+        "label": "Founded",
+        "value": "2019"
+      },
+      {
+        "label": "Address",
+        "value": "Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Send product requirements, specifications or OEM/ODM needs",
+    "intro": "Contact DJ directly by phone or email. Please include application industry, voltage / current parameters, estimated quantity and packaging requirements when available.",
+    "details": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    },
+    "privacyLabel": "Privacy Policy",
+    "privacyText": "View the privacy policy for the website and BMS Protection Board Manager app."
+  }
+}

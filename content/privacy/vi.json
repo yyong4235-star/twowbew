@@ -1,0 +1,39 @@
+{
+  "title": "Chính sách quyền riêng tư",
+  "subtitle": "Áp dụng cho website DJ ELECTRONICS và ứng dụng BMS Protection Board Manager.",
+  "updated": "Cập nhật: 24/07/2026 | Hiệu lực: 24/07/2026",
+  "sections": [
+    {
+      "title": "1. Nguyên tắc xử lý dữ liệu",
+      "text": "Ứng dụng được thiết kế để hoạt động cục bộ: kết nối thiết bị cục bộ, xem dữ liệu cục bộ và lưu trữ cục bộ. Ứng dụng không chủ động thu thập thông tin nhận dạng cá nhân, không tải dữ liệu người dùng lên máy chủ và không dùng cho quảng cáo, theo dõi hoặc lập hồ sơ người dùng."
+    },
+    {
+      "title": "2. Dữ liệu được xử lý",
+      "text": "Ứng dụng có thể xử lý dữ liệu vận hành của thiết bị BMS như điện áp, dòng điện, nhiệt độ, ngưỡng bảo vệ, trạng thái cân bằng và lỗi; dữ liệu cấu hình do người dùng lưu; và nhật ký vận hành cục bộ để hỗ trợ khắc phục sự cố. Các dữ liệu này mặc định lưu trên thiết bị của người dùng."
+    },
+    {
+      "title": "3. Quyền Bluetooth, vị trí và USB",
+      "text": "Bluetooth chỉ dùng để quét, ghép đôi, kết nối và giao tiếp với bo mạch bảo vệ BMS. Trên Android 11 trở xuống, quyền vị trí có thể được hệ thống yêu cầu cho quét BLE, nhưng ứng dụng không ghi lại hoặc tải lên vị trí thực tế. Nếu hỗ trợ USB hoặc cổng nối tiếp, quyền liên quan chỉ dùng cho giao tiếp cục bộ với thiết bị."
+    },
+    {
+      "title": "4. Mục đích sử dụng",
+      "text": "Dữ liệu chỉ được dùng để kết nối thiết bị BMS, hiển thị trạng thái pin, đọc hoặc cấu hình thông số BMS, cải thiện ổn định giao tiếp và hỗ trợ gỡ lỗi tại chỗ. Dữ liệu không được dùng cho quảng cáo, phân tích thương mại, bán dữ liệu hoặc chia sẻ với bên thứ ba."
+    },
+    {
+      "title": "5. Lưu trữ, xóa và bảo mật",
+      "text": "Dữ liệu vận hành và cấu hình mặc định được lưu trong môi trường cục bộ của thiết bị. Người dùng có thể xóa dữ liệu trong ứng dụng hoặc trong cài đặt hệ thống. Khi gỡ cài đặt, hệ điều hành thường xóa bộ nhớ đệm và dữ liệu cục bộ của ứng dụng."
+    },
+    {
+      "title": "6. SDK bên thứ ba",
+      "text": "Phiên bản hiện tại không tích hợp SDK quảng cáo, thống kê, theo dõi, thanh toán, bản đồ, lưu trữ đám mây hoặc phân tích người dùng. Nếu phiên bản tương lai tích hợp dịch vụ bên thứ ba, chính sách này sẽ được cập nhật trước khi sử dụng."
+    },
+    {
+      "title": "7. Trẻ em và quyền của người dùng",
+      "text": "Ứng dụng là công cụ chuyên nghiệp cho BMS, không hướng đến trẻ em. Người dùng có thể xem, xóa dữ liệu cục bộ, ngừng sử dụng ứng dụng hoặc liên hệ với chúng tôi về vấn đề quyền riêng tư và an toàn dữ liệu."
+    },
+    {
+      "title": "8. Liên hệ",
+      "text": "Công ty: CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ. Email: congtytnhhthietbidientudj@gmail.com. Điện thoại: +84 963 162 922. Địa chỉ: Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam."
+    }
+  ]
+}
