@@ -2,8 +2,9 @@ let siteConfig = null;
 let company = null;
 let copy = null;
 let privacyPolicies = null;
+let userAgreements = null;
 
-const routes = ["home", "products", "manufacturing", "oem", "about", "contact", "privacy"];
+const routes = ["home", "products", "manufacturing", "oem", "about", "contact", "privacy", "terms"];
 const languages = ["vi", "en", "zh"];
 
 let state = {
@@ -24,7 +25,7 @@ async function loadJson(path) {
 }
 
 async function loadContent() {
-  const [site, vi, en, zh, privacyVi, privacyEn, privacyZh] = await Promise.all([
+  const [site, vi, en, zh, privacyVi, privacyEn, privacyZh, termsVi, termsEn, termsZh] = await Promise.all([
     loadJson("./content/site.json"),
     loadJson("./content/pages/vi.json"),
     loadJson("./content/pages/en.json"),
@@ -32,12 +33,16 @@ async function loadContent() {
     loadJson("./content/privacy/vi.json"),
     loadJson("./content/privacy/en.json"),
     loadJson("./content/privacy/zh.json"),
+    loadJson("./content/terms/vi.json"),
+    loadJson("./content/terms/en.json"),
+    loadJson("./content/terms/zh.json"),
   ]);
 
   siteConfig = site;
   company = site.company;
   copy = { vi, en, zh };
   privacyPolicies = { vi: privacyVi, en: privacyEn, zh: privacyZh };
+  userAgreements = { vi: termsVi, en: termsEn, zh: termsZh };
 }
 
 function getImages(key) {
@@ -66,9 +71,7 @@ function card(item, index, images = getImages("productImages")) {
     .join("");
   return `
     <article class="card">
-      <div class="card-media" style="--card-image: url('${image}')">
-        <img class="card-image" src="${image}" alt="${item.title || item.name || item.mode}" loading="lazy" />
-      </div>
+      <img class="card-image" src="${image}" alt="${item.title || item.name || item.mode}" loading="lazy" />
       <span class="icon">${String(index + 1).padStart(2, "0")}</span>
       <h3>${item.title || item.name || item.mode}</h3>
       <p>${item.text || item.description}</p>
@@ -226,10 +229,16 @@ function renderContact(data) {
           <div class="detail-card"><span>${data.contact.details.email}</span><a href="mailto:${company.email}">${company.email}</a></div>
           <div class="detail-card"><span>${data.contact.details.address}</span><strong>${company.legalNameVi}</strong><strong>${company.legalNameEn}</strong><strong>${company.address}</strong></div>
         </div>
-        <a class="privacy-card" href="#privacy">
-          <span>${data.contact.privacyLabel}</span>
-          <strong>${data.contact.privacyText}</strong>
-        </a>
+        <div class="policy-links">
+          <a class="privacy-card" href="#privacy">
+            <span>${data.contact.privacyLabel}</span>
+            <strong>${data.contact.privacyText}</strong>
+          </a>
+          <a class="privacy-card" href="#terms">
+            <span>${data.contact.termsLabel}</span>
+            <strong>${data.contact.termsText}</strong>
+          </a>
+        </div>
       </div>
     </section>
   `;
@@ -258,6 +267,29 @@ function renderPrivacy() {
   `;
 }
 
+function renderTerms() {
+  const agreement = userAgreements[state.lang];
+  return `
+    <section class="section privacy-section">
+      <div class="section-inner privacy-shell">
+        <div class="privacy-hero">
+          <span class="eyebrow">BMS Protection Board Manager</span>
+          <h1>${agreement.title}</h1>
+          <p>${agreement.subtitle}</p>
+          <small>${agreement.updated}</small>
+        </div>
+        <div class="privacy-content">
+          ${agreement.sections.map((section) => {
+            const title = Array.isArray(section) ? section[0] : section.title;
+            const text = Array.isArray(section) ? section[1] : section.text;
+            return `<article><h2>${title}</h2><p>${text}</p></article>`;
+          }).join("")}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
 function renderFooter(data) {
   return `
     <div>
@@ -265,6 +297,7 @@ function renderFooter(data) {
       <span>${company.legalNameVi}</span>
       <span>${company.address}</span>
       <a href="#privacy">${data.contact.privacyLabel}</a>
+      <a href="#terms">${data.contact.termsLabel}</a>
     </div>
   `;
 }
@@ -319,6 +352,7 @@ function render() {
     about: renderAbout,
     contact: renderContact,
     privacy: renderPrivacy,
+    terms: renderTerms,
   };
   document.querySelector("#app").innerHTML = renderers[state.route](data);
   document.querySelector("#app").focus({ preventScroll: true });
