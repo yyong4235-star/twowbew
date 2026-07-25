@@ -179,6 +179,8 @@ page_fields: &page_fields
           - { label: Address, name: address, widget: string }
       - { label: Privacy Label, name: privacyLabel, widget: string }
       - { label: Privacy Text, name: privacyText, widget: text }
+      - { label: User Agreement Label, name: termsLabel, widget: string }
+      - { label: User Agreement Text, name: termsText, widget: text }
 
 privacy_fields: &privacy_fields
   - { label: Title, name: title, widget: string }
@@ -269,5 +271,23 @@ collections:
       - label: Chinese Privacy
         name: privacy_zh
         file: content/privacy/zh.json
+        format: json
+        fields: *privacy_fields
+  - name: terms
+    label: User Agreement
+    files:
+      - label: Vietnamese User Agreement
+        name: terms_vi
+        file: content/terms/vi.json
+        format: json
+        fields: *privacy_fields
+      - label: English User Agreement
+        name: terms_en
+        file: content/terms/en.json
+        format: json
+        fields: *privacy_fields
+      - label: Chinese User Agreement
+        name: terms_zh
+        file: content/terms/zh.json
         format: json
         fields: *privacy_fields
