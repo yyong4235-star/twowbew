@@ -1,0 +1,51 @@
+{
+  "title": "Thỏa thuận người dùng",
+  "subtitle": "Áp dụng cho ứng dụng di động BMS Protection Board Manager, bao gồm phiên bản phát hành trên Google Play và Apple App Store.",
+  "updated": "Cập nhật: 25/07/2026 | Hiệu lực: 25/07/2026",
+  "sections": [
+    {
+      "title": "1. Chấp nhận điều khoản",
+      "text": "Thỏa thuận người dùng này là thỏa thuận giữa người dùng và CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ / DJ ELECTRONICS CO., LTD về việc tải xuống, cài đặt và sử dụng ứng dụng BMS Protection Board Manager. Khi tải xuống, cài đặt hoặc sử dụng ứng dụng, bạn xác nhận rằng bạn đã đọc, hiểu và đồng ý với Thỏa thuận này cùng Chính sách quyền riêng tư đi kèm. Nếu bạn không đồng ý với bất kỳ điều khoản nào, vui lòng ngừng sử dụng và gỡ cài đặt ứng dụng."
+    },
+    {
+      "title": "2. Mục đích phần mềm",
+      "text": "Ứng dụng là công cụ gỡ lỗi cục bộ ngoại tuyến chuyên nghiệp cho bo mạch bảo vệ BMS (Battery Management System). Ứng dụng dùng để kết nối thiết bị phần cứng, xem dữ liệu vận hành, đọc và cấu hình thông số, hỗ trợ các tình huống phát triển, gỡ lỗi, bảo trì và quản lý thiết bị công nghiệp. Ứng dụng không cung cấp mạng xã hội, quảng cáo, phân phối nội dung, giao dịch tài chính hoặc đồng bộ dữ liệu đám mây."
+    },
+    {
+      "title": "3. Phạm vi cấp phép",
+      "text": "Chúng tôi cấp cho người dùng quyền sử dụng cá nhân có giới hạn, không độc quyền, không thể chuyển nhượng và có thể thu hồi để cài đặt và sử dụng ứng dụng trên thiết bị Android hoặc iOS mà người dùng sở hữu hợp pháp hoặc được phép sử dụng, chỉ nhằm gỡ lỗi, kiểm tra và bảo trì thiết bị BMS của chính người dùng hoặc nội bộ. Nếu không có văn bản cho phép, người dùng không được sao chép, bán, cho thuê, phân phối, dịch ngược, đảo ngược kỹ thuật, bẻ khóa, phát triển lại hoặc đóng gói thương mại ứng dụng hoặc chức năng cốt lõi của ứng dụng."
+    },
+    {
+      "title": "4. Trách nhiệm của người dùng",
+      "text": "Người dùng chỉ được dùng ứng dụng cho việc gỡ lỗi, kiểm tra và bảo trì phần cứng BMS hợp pháp. Người dùng không được dùng ứng dụng để cải tạo thiết bị trái phép, xâm nhập hoặc can thiệp thiết bị thông minh không liên quan, thu thập dữ liệu bất hợp pháp, vượt qua bảo vệ an toàn, phá hoại hoạt động ứng dụng hoặc thực hiện hành vi vi phạm Google Play, Apple App Store hoặc pháp luật áp dụng. Khi đọc, sửa hoặc lưu thông số BMS qua ứng dụng, người dùng phải tự đánh giá rủi ro thiết bị và chịu hậu quả thao tác."
+    },
+    {
+      "title": "5. Quyền và quy tắc dữ liệu",
+      "text": "Các quyền của ứng dụng chỉ dùng cho chức năng cốt lõi: quyền Bluetooth dùng để quét, ghép đôi, kết nối và giao tiếp với thiết bị BMS; quyền vị trí trên Android 11 trở xuống chỉ dùng để đáp ứng yêu cầu quét BLE và không thu thập, ghi lại, lưu trữ hoặc tải lên vị trí địa lý thực tế; quyền Bluetooth trên iOS chỉ dùng cho kết nối thiết bị BMS, không dùng cho định vị, quảng cáo, theo dõi hoặc phân tích; quyền USB hoặc cổng nối tiếp, nếu có, chỉ dùng cho giao tiếp cục bộ với thiết bị. Ứng dụng không chủ động thu thập thông tin cá nhân, không chia sẻ dữ liệu người dùng và không tự động tải dữ liệu thiết bị BMS hoặc tệp cấu hình lên máy chủ."
+    },
+    {
+      "title": "6. Quản lý dữ liệu cục bộ",
+      "text": "Dữ liệu thiết bị BMS, tệp cấu hình và nhật ký cục bộ do ứng dụng tạo hoặc xử lý mặc định được lưu trên thiết bị của người dùng. Người dùng có thể xóa dữ liệu cục bộ trong ứng dụng hoặc cài đặt hệ thống, hoặc gỡ cài đặt ứng dụng. Nếu người dùng chủ động xuất, chụp màn hình, sao chép hoặc chia sẻ dữ liệu cục bộ qua công cụ bên thứ ba, các rủi ro và trách nhiệm quản lý liên quan do người dùng tự chịu."
+    },
+    {
+      "title": "7. Cập nhật phần mềm",
+      "text": "Chúng tôi có thể cập nhật ứng dụng để sửa lỗi, tối ưu độ ổn định kết nối Bluetooth, cải thiện tương thích, thích ứng với thay đổi hệ thống Android hoặc iOS và đáp ứng yêu cầu chính sách nền tảng. Việc tiếp tục sử dụng ứng dụng sau cập nhật nghĩa là bạn chấp nhận Thỏa thuận người dùng và Chính sách quyền riêng tư đã cập nhật."
+    },
+    {
+      "title": "8. Miễn trừ trách nhiệm",
+      "text": "Ứng dụng là công cụ hỗ trợ gỡ lỗi phần cứng. Thiệt hại thiết bị, bất thường dữ liệu, tổn thất kinh tế hoặc hậu quả khác do thao tác sai của người dùng, cài đặt thông số sai, lỗi thiết bị, tương thích hệ thống, môi trường kết nối hoặc vấn đề phần cứng bên thứ ba sẽ do người dùng tự chịu. Chúng tôi không đưa ra bảo đảm rõ ràng hoặc ngụ ý rằng ứng dụng luôn khả dụng trên mọi thiết bị, phiên bản hệ thống hoặc tình huống công nghiệp đặc biệt, hoặc phù hợp cho mục đích thương mại hay mục đích cụ thể."
+    },
+    {
+      "title": "9. Người chưa thành niên",
+      "text": "Ứng dụng là công cụ gỡ lỗi phần cứng công nghiệp chuyên nghiệp và không hướng đến trẻ em hoặc người chưa thành niên. Người chưa thành niên không được tự sử dụng ứng dụng; nếu cần sử dụng, phải có người giám hộ hoặc người có chuyên môn giám sát, và người giám hộ chịu trách nhiệm tương ứng."
+    },
+    {
+      "title": "10. Thay đổi và chấm dứt",
+      "text": "Chúng tôi có thể sửa đổi Thỏa thuận này theo chức năng ứng dụng, chính sách nền tảng hoặc yêu cầu pháp luật. Phiên bản mới nhất sẽ được công bố trên website công ty hoặc trang cửa hàng ứng dụng liên quan. Nếu người dùng vi phạm Thỏa thuận này, xâm phạm quyền của người khác hoặc sử dụng ứng dụng trái pháp luật, chúng tôi có thể tạm ngừng hoặc chấm dứt quyền sử dụng ứng dụng trong phạm vi pháp luật cho phép."
+    },
+    {
+      "title": "11. Liên hệ",
+      "text": "Công ty: CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ / DJ ELECTRONICS CO., LTD. Email: congtytnhhthietbidientudj@gmail.com. Điện thoại: +84 963 162 922. Địa chỉ: Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam."
+    }
+  ]
+}

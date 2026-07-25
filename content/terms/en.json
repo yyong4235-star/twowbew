@@ -1,1 +1,51 @@
-
+{
+  "title": "User Agreement",
+  "subtitle": "Applies to the BMS Protection Board Manager mobile app, including versions published on Google Play and Apple App Store.",
+  "updated": "Last Updated: July 25, 2026 | Effective Date: July 25, 2026",
+  "sections": [
+    {
+      "title": "1. Acceptance of Terms",
+      "text": "This User Agreement is an agreement between the user and CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ / DJ ELECTRONICS CO., LTD regarding the download, installation, and use of the BMS Protection Board Manager app. By downloading, installing, or using the app, you confirm that you have read, understood, and agreed to this Agreement and the supporting Privacy Policy. If you do not agree to any term, please stop using and uninstall the app."
+    },
+    {
+      "title": "2. Software Purpose",
+      "text": "The app is a professional offline local debugging tool for BMS (Battery Management System) protection boards. It is used to connect hardware devices, view operating data, read and configure parameters, and support development, debugging, maintenance, and industrial device management scenarios. The app does not provide social networking, advertising, content distribution, financial transaction, or cloud data synchronization services."
+    },
+    {
+      "title": "3. License Scope",
+      "text": "We grant the user a limited, non-exclusive, non-transferable, revocable personal license to install and use the app on Android or iOS devices legally owned or authorized for use by the user, solely for the user's own or internal BMS device debugging, inspection, and maintenance. Without written authorization, the user may not copy, sell, rent, distribute, decompile, reverse engineer, crack, redevelop, or commercially package the app or its core functions."
+    },
+    {
+      "title": "4. User Responsibilities",
+      "text": "Users must use the app only for lawful BMS hardware debugging, testing, and maintenance. Users must not use the app for illegal device modification, intrusion into or interference with unrelated smart devices, unlawful data acquisition, circumvention of security protection, disruption of app operation, or any activity that violates Google Play, Apple App Store, or applicable laws and regulations. When users read, modify, or save BMS parameters through the app, they must independently assess device risks and bear the consequences of their operations."
+    },
+    {
+      "title": "5. Permissions and Data Rules",
+      "text": "App permissions are used only for core functions: Bluetooth permissions are used to scan, pair, connect, and communicate with BMS devices; location permission on Android 11 and earlier is used only to satisfy BLE scanning requirements and does not collect, record, store, or upload actual geographic location; Bluetooth permission on iOS is used only for BMS device connection and not for location, advertising, tracking, or analytics; USB or serial permissions, if supported, are used only for local device communication. The app does not actively collect personal information, does not share user data, and does not automatically upload BMS device data or configuration files."
+    },
+    {
+      "title": "6. Local Data Management",
+      "text": "BMS device data, configuration files, and local logs generated or processed by the app are stored locally on the user's device by default. Users can clear local data in the app or through system settings, or uninstall the app. If the user actively exports, screenshots, copies, or shares local data through third-party tools, the related risks and management responsibilities are borne by the user."
+    },
+    {
+      "title": "7. Software Updates",
+      "text": "We may update the app to fix issues, optimize Bluetooth connection stability, improve compatibility, adapt to Android or iOS system changes, and satisfy platform policy requirements. Continued use of the updated app means you accept the updated User Agreement and Privacy Policy."
+    },
+    {
+      "title": "8. Disclaimer",
+      "text": "The app is an auxiliary hardware debugging tool. Device damage, data abnormalities, economic losses, or other consequences caused by improper user operation, incorrect parameter settings, device defects, system compatibility, connection environment, or third-party hardware issues are borne by the user. We make no express or implied warranty that the app will remain available on all devices, system versions, or special industrial scenarios, or that it is commercially suitable or fit for a particular purpose."
+    },
+    {
+      "title": "9. Minors",
+      "text": "The app is a professional industrial hardware debugging tool and is not directed to children or minors. Minors must not use the app independently; if use is necessary, it must be supervised by a guardian or professional, and the guardian shall bear the corresponding responsibility."
+    },
+    {
+      "title": "10. Changes and Termination",
+      "text": "We may revise this Agreement according to app functions, platform policies, or legal requirements. The latest version will be published on the company website or relevant app store page. If a user violates this Agreement, infringes others' rights, or uses the app unlawfully, we may suspend or terminate the user's eligibility to use the app within the scope permitted by law."
+    },
+    {
+      "title": "11. Contact",
+      "text": "Company: CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ / DJ ELECTRONICS CO., LTD. Email: congtytnhhthietbidientudj@gmail.com. Phone: +84 963 162 922. Address: Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam."
+    }
+  ]
+}
