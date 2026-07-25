@@ -276,6 +276,8 @@
       "address": "Address"
     },
     "privacyLabel": "Privacy Policy",
-    "privacyText": "View the privacy policy for the website and BMS Protection Board Manager app."
+    "privacyText": "View the privacy policy for the website and BMS Protection Board Manager app.",
+    "termsLabel": "User Agreement",
+    "termsText": "View the user agreement for Google Play and Apple App Store app versions."
   }
 }

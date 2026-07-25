@@ -276,6 +276,8 @@
       "address": "Địa chỉ"
     },
     "privacyLabel": "Chính sách quyền riêng tư",
-    "privacyText": "Xem chính sách quyền riêng tư dùng cho website và ứng dụng BMS Protection Board Manager."
+    "privacyText": "Xem chính sách quyền riêng tư dùng cho website và ứng dụng BMS Protection Board Manager.",
+    "termsLabel": "Thỏa thuận người dùng",
+    "termsText": "Xem thỏa thuận người dùng áp dụng cho phiên bản Google Play và Apple App Store."
   }
 }

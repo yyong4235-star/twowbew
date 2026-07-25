@@ -276,6 +276,8 @@
       "address": "地址"
     },
     "privacyLabel": "隐私政策",
-    "privacyText": "查看官网和 BMS Protection Board Manager 应用使用的隐私政策。"
+    "privacyText": "查看官网和 BMS Protection Board Manager 应用使用的隐私政策。",
+    "termsLabel": "用户协议",
+    "termsText": "查看 Google Play 和 Apple App Store 上架版本适用的用户协议。"
   }
 }
