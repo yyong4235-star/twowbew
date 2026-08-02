@@ -1,58 +1,62 @@
 {
   "title": "Privacy Policy",
-  "subtitle": "Applies to the DJ ELECTRONICS website and the BMS Protection Board Manager mobile app, including versions published on Google Play and Apple App Store.",
-  "updated": "Last Updated: July 25, 2026 | Effective Date: July 25, 2026",
+  "subtitle": "Applies to the DJ ELECTRONICS website and the Google Play version of the BMS smart DJ mobile app.",
+  "updated": "Last Updated: August 2, 2026 | Effective Date: August 2, 2026",
   "sections": [
     {
       "title": "1. Core Principle",
-      "text": "BMS Protection Board Manager is a professional local debugging tool for BMS protection boards. The app is designed for local operation, local device connection, and local storage. It does not require account registration, does not actively collect personally identifiable information, does not automatically upload user data to servers, and is not used for advertising, user tracking, cross-app tracking, or user profiling."
+      "text": "BMS smart DJ is a professional local debugging tool for BMS battery management boards. The app is designed for local operation, local Bluetooth connection, and local storage. It does not require account registration, does not actively collect personally identifiable information, does not automatically upload user data to servers, and is not used for advertising, user tracking, cross-app tracking, or user profiling."
     },
     {
       "title": "2. Personal Information Collection",
-      "text": "The app does not actively collect, store, or upload the user's name, phone number, email address, contacts, SMS, call logs, photos, camera content, account information, advertising identifiers, precise location, or background location data. Tracking, privacy collection, and data sharing items that Apple reviews closely are not functional purposes of this app."
+      "text": "The app does not actively collect, store, or upload the user's name, phone number, email address, contacts, SMS, call logs, photos, camera content, account information, advertising identifiers, precise location, or background location data. Tracking, privacy collection, and data sharing items reviewed by app platforms are not functional purposes of this app."
     },
     {
       "title": "3. Data Processed Locally",
-      "text": "To connect BMS devices, display data, and configure parameters, the app may process BMS device operating data locally on the user's device, such as voltage, current, temperature, protection thresholds, balancing status, and fault status; configuration data saved by the user; and local operation logs for troubleshooting. Unless the user actively exports, screenshots, copies, or sends such data to us for support, we do not access this local data."
+      "text": "To search, pair, connect, display data, and configure parameters for BMS devices, the app may process BMS battery management board operating data locally on the user's device, such as battery voltage, current, temperature, balancing status, protection thresholds, fault status, connection records, configuration data actively saved by the user, and battery historical operating records saved locally. This data is stored only on the user's device and is not automatically synchronized or uploaded to any server. Unless the user actively exports, screenshots, copies, or sends such data to us for technical support, we do not access this local data."
     },
     {
       "title": "4. Permission Usage",
-      "text": "Bluetooth permissions are used only to scan, pair, connect, and communicate with BMS protection boards. On Android 11 and earlier, location permission may be required by the system as a prerequisite for BLE scanning; this permission is used only to scan for and connect nearby BMS devices, and the app does not obtain, record, store, or upload the user's actual geographic location. On Android 12 and later, the app prioritizes the system's dedicated Bluetooth permissions. On iOS, Bluetooth permission is used only to discover, connect, and communicate with BMS devices, and not for location, advertising, tracking, or analytics. If USB or serial permissions are supported, they are used only for local device communication."
+      "text": "BLUETOOTH, BLUETOOTH_SCAN, and BLUETOOTH_CONNECT permissions are used only to search, pair, and connect local BMS battery management boards, and to send and receive operating data such as battery voltage, temperature, and balancing status with the device. ACCESS_FINE_LOCATION is used only to support the mandatory BLE scanning requirement on Android 11 and earlier. The app does not read, record, use, store, or upload the user's actual geographic location. INTERNET permission is not used for account login, advertising, analytics, cloud synchronization, or user data upload. Storage read/write permissions are used only to save battery historical operating records and user-selected local files on the device, and are not used for external synchronization."
     },
     {
       "title": "5. Purpose of Data Use",
-      "text": "Local data is used only to scan and connect BMS devices, display real-time battery and BMS status, read or configure BMS parameters, save local configurations selected by the user, improve communication stability, and support local debugging. The app does not use this data for advertising, commercial analytics, data sales, third-party sharing, or purposes unrelated to BMS management."
+      "text": "Local data is used only to search and connect BMS battery management boards, display real-time battery and BMS status, read or configure BMS parameters, save local configurations and historical records selected by the user, improve Bluetooth communication stability, and support local debugging. The app does not use this data for advertising, commercial analytics, data sales, third-party sharing, or purposes unrelated to BMS management."
     },
     {
       "title": "6. Storage, Deletion, and Security",
-      "text": "Operation data, configuration data, and logs are stored locally on the user's device by default and are protected by the operating system sandbox. Users can clear local data in the app or through system settings. When the app is uninstalled, the operating system usually removes app cache and local configurations. If the user actively exports or shares local files, those files are managed by the user."
+      "text": "Operating data, configuration data, historical records, and logs are stored locally on the user's device by default and are protected by the operating system sandbox. Users can clear local data in the app or through system settings. When the app is uninstalled, the operating system usually removes app cache and local configurations. If the user actively exports or shares local files, those files are managed by the user."
     },
     {
-      "title": "7. Third-Party SDKs and Data Sharing",
-      "text": "The current version does not integrate advertising, analytics, tracking, payment, map, cloud storage, or user analysis SDKs. We do not sell, rent, or share users' personal information or local BMS device data with third parties. If a future version integrates third-party services or changes data processing practices, we will update this policy before use and obtain necessary authorization according to platform rules."
+      "title": "7. Support Materials Voluntarily Provided by Users",
+      "text": "If a user voluntarily contacts us by email, phone, or other means and provides screenshots, logs, device data, issue descriptions, or contact information, we will use such materials only for technical support, troubleshooting, and after-sales communication. We will not use them for advertising, profiling, sale, or purposes unrelated to support. Users may request deletion of support materials they voluntarily provided by contacting us at the email address in this policy."
     },
     {
-      "title": "8. Children and Minors",
-      "text": "The app is a professional tool for BMS protection board development, debugging, maintenance, and industrial use. It is not directed to children. We do not knowingly collect children's personal information. Minors should not use the app independently; if use is necessary, it should be supervised by a guardian or professional."
+      "title": "8. Third-Party SDKs and Data Sharing",
+      "text": "The current version does not integrate any third-party SDK, including advertising, analytics, tracking, payment, map, cloud storage, or user analysis SDKs. We do not sell, rent, or share users' personal information or local BMS device data with third parties. If a future version integrates third-party services or changes data processing practices, we will update this policy before use and obtain necessary authorization according to platform rules."
     },
     {
-      "title": "9. User Rights",
-      "text": "Users may view, modify, export, or delete available local configuration data in the app, or stop using and uninstall the app. Because the app does not require account registration and does not automatically upload user data, we usually cannot identify, access, or delete local data stored on the user's device from a server side."
+      "title": "9. Children and Minors",
+      "text": "The app is a professional tool for BMS battery management board development, debugging, maintenance, and industrial use. It is not directed to children. We do not knowingly collect children's personal information. Minors should not use the app independently; if use is necessary, it should be supervised by a guardian or professional."
     },
     {
-      "title": "10. Policy Updates",
+      "title": "10. User Rights",
+      "text": "Users may view, modify, export, or delete available local configuration data and historical records in the app, or stop using and uninstall the app. Because the app does not require account registration and does not automatically upload user data, we usually cannot identify, access, or delete local data stored on the user's device from a server side. For support materials voluntarily sent to us, users may contact us by email to request access or deletion."
+    },
+    {
+      "title": "11. Policy Updates",
       "text": "We may update this Privacy Policy due to app function changes, platform policy changes, or legal requirements. The updated version will be published on the company website or the public privacy policy page used for app store listings. Continued use of the app means you understand the updated content."
     },
     {
-      "title": "11. Governing Law",
-      "text": "This Privacy Policy is governed by the Personal Data Protection Law of Vietnam (Luật số 91/2025/QH15-PDPL) and other currently applicable laws and regulations of Vietnam. Because the app does not collect or process any personally identifiable user data, cross-border data transfer filing and data protection impact assessment (DPIA) are not required."
+      "title": "12. Governing Law",
+      "text": "This Privacy Policy is governed by currently applicable laws and regulations of Vietnam. Because the app does not automatically collect or upload users' personal data by default, it generally does not involve server-side user account data processing or cross-border transfer. If a user voluntarily provides technical support materials to us, we will use them only within the scope necessary to handle the issue."
     },
     {
-      "title": "12. User Complaints and Response Time",
-      "text": "If users in Vietnam have questions or complaints about this Privacy Policy or the app's data processing practices, they may contact us by the email or phone number below. We commit to responding and handling the matter within 3 business days."
+      "title": "13. User Complaints and Response Time",
+      "text": "If users have questions or complaints about this Privacy Policy, permission usage, or data processing practices, they may contact us by the email or phone number below. We will respond as soon as possible after receiving a valid request and will try to handle it within 3 business days."
     },
     {
-      "title": "13. Contact Us",
+      "title": "14. Contact Us",
       "text": "Company: CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ / DJ ELECTRONICS CO., LTD. Email: congtytnhhthietbidientudj@gmail.com. Phone: +84 963 162 922. Address: Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam."
     }
   ]

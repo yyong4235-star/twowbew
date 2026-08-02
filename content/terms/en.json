@@ -1,51 +1,51 @@
 {
   "title": "User Agreement",
-  "subtitle": "Applies to the BMS Protection Board Manager mobile app, including versions published on Google Play and Apple App Store.",
-  "updated": "Last Updated: July 25, 2026 | Effective Date: July 25, 2026",
+  "subtitle": "Applies to the Google Play version of the BMS smart DJ mobile app.",
+  "updated": "Last Updated: August 2, 2026 | Effective Date: August 2, 2026",
   "sections": [
     {
       "title": "1. Acceptance of Terms",
-      "text": "This User Agreement is an agreement between the user and CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ / DJ ELECTRONICS CO., LTD regarding the download, installation, and use of the BMS Protection Board Manager app. By downloading, installing, or using the app, you confirm that you have read, understood, and agreed to this Agreement and the supporting Privacy Policy. If you do not agree to any term, please stop using and uninstall the app."
+      "text": "This User Agreement is an agreement between the user and CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ / DJ ELECTRONICS CO., LTD regarding the download, installation, and use of the BMS smart DJ app. By downloading, installing, or using the app, you confirm that you have read, understood, and agreed to this Agreement and the supporting Privacy Policy. If you do not agree to any term, please stop using and uninstall the app."
     },
     {
       "title": "2. Software Purpose",
-      "text": "The app is a professional offline local debugging tool for BMS (Battery Management System) protection boards. It is used to connect hardware devices, view operating data, read and configure parameters, and support development, debugging, maintenance, and industrial device management scenarios. The app does not provide social networking, advertising, content distribution, financial transaction, or cloud data synchronization services."
+      "text": "The app is a professional offline local debugging tool for BMS (Battery Management System) battery management boards. It is used to search, pair, and connect local hardware devices, view operating data such as battery voltage, temperature, and balancing status, read and configure parameters, and support development, debugging, maintenance, and industrial device management scenarios. The app does not provide social networking, advertising, content distribution, financial transaction, account system, or cloud data synchronization services."
     },
     {
       "title": "3. License Scope",
-      "text": "We grant the user a limited, non-exclusive, non-transferable, revocable personal license to install and use the app on Android or iOS devices legally owned or authorized for use by the user, solely for the user's own or internal BMS device debugging, inspection, and maintenance. Without written authorization, the user may not copy, sell, rent, distribute, decompile, reverse engineer, crack, redevelop, or commercially package the app or its core functions."
+      "text": "We grant the user a limited, non-exclusive, non-transferable, revocable personal license to install and use the app on Android devices legally owned or authorized for use by the user, solely for the user's own or internal BMS device debugging, inspection, and maintenance. Without written authorization, the user may not copy, sell, rent, distribute, decompile, reverse engineer, crack, redevelop, or commercially package the app or its core functions."
     },
     {
       "title": "4. User Responsibilities",
-      "text": "Users must use the app only for lawful BMS hardware debugging, testing, and maintenance. Users must not use the app for illegal device modification, intrusion into or interference with unrelated smart devices, unlawful data acquisition, circumvention of security protection, disruption of app operation, or any activity that violates Google Play, Apple App Store, or applicable laws and regulations. When users read, modify, or save BMS parameters through the app, they must independently assess device risks and bear the consequences of their operations."
+      "text": "Users must use the app only for lawful BMS hardware debugging, testing, and maintenance. Users must not use the app for illegal device modification, intrusion into or interference with unrelated smart devices, unlawful data acquisition, circumvention of security protection, disruption of app operation, or any activity that violates Google Play or applicable laws and regulations. When users read, modify, or save BMS parameters through the app, they must independently assess device risks and bear the consequences of their operations."
     },
     {
       "title": "5. Permissions and Data Rules",
-      "text": "App permissions are used only for core functions: Bluetooth permissions are used to scan, pair, connect, and communicate with BMS devices; location permission on Android 11 and earlier is used only to satisfy BLE scanning requirements and does not collect, record, store, or upload actual geographic location; Bluetooth permission on iOS is used only for BMS device connection and not for location, advertising, tracking, or analytics; USB or serial permissions, if supported, are used only for local device communication. The app does not actively collect personal information, does not share user data, and does not automatically upload BMS device data or configuration files."
+      "text": "App permissions are used only for core functions: BLUETOOTH, BLUETOOTH_SCAN, and BLUETOOTH_CONNECT permissions are used to search, pair, connect, and communicate with local BMS battery management boards; ACCESS_FINE_LOCATION is used only to support the mandatory BLE scanning requirement on older Android systems, and the app does not read, record, use, store, or upload actual geographic location; INTERNET permission is not used for account login, advertising, analytics, cloud synchronization, or user data upload; storage read/write permissions are used only to save battery historical operating records and user-selected local files on the device. The app does not actively collect personal information, does not share user data, and does not automatically upload BMS device data, historical records, or configuration files."
     },
     {
       "title": "6. Local Data Management",
-      "text": "BMS device data, configuration files, and local logs generated or processed by the app are stored locally on the user's device by default. Users can clear local data in the app or through system settings, or uninstall the app. If the user actively exports, screenshots, copies, or shares local data through third-party tools, the related risks and management responsibilities are borne by the user."
+      "text": "BMS device data, configuration files, battery historical operating records, and local logs generated or processed by the app are stored locally on the user's device by default. Users can clear local data in the app or through system settings, or uninstall the app. If the user actively exports, screenshots, copies, or shares local data through third-party tools, the related risks and management responsibilities are borne by the user."
     },
     {
-      "title": "7. Software Updates",
-      "text": "We may update the app to fix issues, optimize Bluetooth connection stability, improve compatibility, adapt to Android or iOS system changes, and satisfy platform policy requirements. Continued use of the updated app means you accept the updated User Agreement and Privacy Policy."
+      "title": "7. Technical Support Materials",
+      "text": "If a user voluntarily contacts us by email, phone, or other means and provides screenshots, logs, device data, issue descriptions, or contact information, we will use such materials only for technical support, troubleshooting, and after-sales communication. Users must not submit data they are not authorized to provide, and may request deletion of support materials they voluntarily provided by contacting us by email."
     },
     {
-      "title": "8. Disclaimer",
+      "title": "8. Software Updates",
+      "text": "We may update the app to fix issues, optimize Bluetooth connection stability, improve compatibility, adapt to Android system changes, and satisfy platform policy requirements. Continued use of the updated app means you accept the updated User Agreement and Privacy Policy."
+    },
+    {
+      "title": "9. Disclaimer",
       "text": "The app is an auxiliary hardware debugging tool. Device damage, data abnormalities, economic losses, or other consequences caused by improper user operation, incorrect parameter settings, device defects, system compatibility, connection environment, or third-party hardware issues are borne by the user. We make no express or implied warranty that the app will remain available on all devices, system versions, or special industrial scenarios, or that it is commercially suitable or fit for a particular purpose."
     },
     {
-      "title": "9. Minors",
+      "title": "10. Minors",
       "text": "The app is a professional industrial hardware debugging tool and is not directed to children or minors. Minors must not use the app independently; if use is necessary, it must be supervised by a guardian or professional, and the guardian shall bear the corresponding responsibility."
     },
     {
-      "title": "10. Changes and Termination",
+      "title": "11. Changes and Termination",
       "text": "We may revise this Agreement according to app functions, platform policies, or legal requirements. The latest version will be published on the company website or relevant app store page. If a user violates this Agreement, infringes others' rights, or uses the app unlawfully, we may suspend or terminate the user's eligibility to use the app within the scope permitted by law."
-    },
-    {
-      "title": "11. Governing Law and Dispute Resolution",
-      "text": "This User Agreement is governed by the current laws of the Socialist Republic of Vietnam, including the Personal Data Protection Law (Luật số 91/2025/QH15-PDPL). Any dispute arising from or related to this Agreement shall first be resolved through friendly consultation between the parties; if no agreement can be reached, the dispute shall be submitted to a competent People's Court in Vietnam for litigation."
     },
     {
       "title": "12. Contact",

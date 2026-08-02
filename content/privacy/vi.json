@@ -1,58 +1,62 @@
 {
   "title": "Chính sách quyền riêng tư",
-  "subtitle": "Áp dụng cho website DJ ELECTRONICS và ứng dụng di động BMS Protection Board Manager, bao gồm phiên bản phát hành trên Google Play và Apple App Store.",
-  "updated": "Cập nhật: 25/07/2026 | Hiệu lực: 25/07/2026",
+  "subtitle": "Áp dụng cho website DJ ELECTRONICS và phiên bản Google Play của ứng dụng di động BMS smart DJ.",
+  "updated": "Cập nhật: 02/08/2026 | Hiệu lực: 02/08/2026",
   "sections": [
     {
       "title": "1. Nguyên tắc chính",
-      "text": "BMS Protection Board Manager là công cụ gỡ lỗi cục bộ chuyên nghiệp cho bo mạch bảo vệ BMS. Ứng dụng được thiết kế để hoạt động cục bộ, kết nối thiết bị cục bộ và lưu trữ cục bộ. Ứng dụng không yêu cầu đăng ký tài khoản, không chủ động thu thập thông tin nhận dạng cá nhân, không tự động tải dữ liệu người dùng lên máy chủ và không dùng cho quảng cáo, theo dõi người dùng, theo dõi chéo ứng dụng hoặc lập hồ sơ người dùng."
+      "text": "BMS smart DJ là công cụ gỡ lỗi cục bộ chuyên nghiệp cho bo mạch quản lý pin BMS. Ứng dụng được thiết kế để hoạt động cục bộ, kết nối Bluetooth cục bộ và lưu trữ cục bộ. Ứng dụng không yêu cầu đăng ký tài khoản, không chủ động thu thập thông tin nhận dạng cá nhân, không tự động tải dữ liệu người dùng lên máy chủ và không dùng cho quảng cáo, theo dõi người dùng, theo dõi chéo ứng dụng hoặc lập hồ sơ người dùng."
     },
     {
       "title": "2. Thu thập thông tin cá nhân",
-      "text": "Ứng dụng không chủ động thu thập, lưu trữ hoặc tải lên tên, số điện thoại, email, danh bạ, SMS, nhật ký cuộc gọi, ảnh, nội dung camera, thông tin tài khoản, mã định danh quảng cáo, vị trí chính xác hoặc dữ liệu vị trí nền của người dùng. Các vấn đề Apple thường kiểm tra như theo dõi, thu thập quyền riêng tư và chia sẻ dữ liệu không phải là mục đích chức năng của ứng dụng này."
+      "text": "Ứng dụng không chủ động thu thập, lưu trữ hoặc tải lên tên, số điện thoại, email, danh bạ, SMS, nhật ký cuộc gọi, ảnh, nội dung camera, thông tin tài khoản, mã định danh quảng cáo, vị trí chính xác hoặc dữ liệu vị trí nền của người dùng. Các vấn đề nền tảng ứng dụng thường kiểm tra như theo dõi, thu thập quyền riêng tư và chia sẻ dữ liệu không phải là mục đích chức năng của ứng dụng này."
     },
     {
       "title": "3. Dữ liệu được xử lý cục bộ",
-      "text": "Để kết nối thiết bị BMS, hiển thị dữ liệu và cấu hình thông số, ứng dụng có thể xử lý cục bộ trên thiết bị của người dùng các dữ liệu vận hành BMS như điện áp, dòng điện, nhiệt độ, ngưỡng bảo vệ, trạng thái cân bằng và lỗi; dữ liệu cấu hình do người dùng lưu; và nhật ký vận hành cục bộ để hỗ trợ khắc phục sự cố. Trừ khi người dùng chủ động xuất, chụp màn hình, sao chép hoặc gửi dữ liệu đó cho chúng tôi để hỗ trợ, chúng tôi không truy cập dữ liệu cục bộ này."
+      "text": "Để tìm kiếm, ghép đôi, kết nối, hiển thị dữ liệu và cấu hình thông số cho thiết bị BMS, ứng dụng có thể xử lý cục bộ trên thiết bị của người dùng dữ liệu vận hành bo mạch quản lý pin BMS như điện áp pin, dòng điện, nhiệt độ, trạng thái cân bằng, ngưỡng bảo vệ, trạng thái lỗi, lịch sử kết nối, dữ liệu cấu hình do người dùng chủ động lưu và lịch sử vận hành pin được lưu cục bộ. Dữ liệu này chỉ được lưu trên thiết bị của người dùng và không tự động đồng bộ hoặc tải lên bất kỳ máy chủ nào. Trừ khi người dùng chủ động xuất, chụp màn hình, sao chép hoặc gửi dữ liệu đó cho chúng tôi để hỗ trợ kỹ thuật, chúng tôi không truy cập dữ liệu cục bộ này."
     },
     {
       "title": "4. Mục đích sử dụng quyền",
-      "text": "Quyền Bluetooth chỉ dùng để quét, ghép đôi, kết nối và giao tiếp với bo mạch bảo vệ BMS. Trên Android 11 trở xuống, hệ thống có thể yêu cầu quyền vị trí như điều kiện để quét BLE; quyền này chỉ dùng để quét và kết nối thiết bị BMS ở gần, ứng dụng không lấy, ghi lại, lưu trữ hoặc tải lên vị trí địa lý thực tế của người dùng. Trên Android 12 trở lên, ứng dụng ưu tiên dùng quyền Bluetooth chuyên dụng của hệ thống. Trên iOS, quyền Bluetooth chỉ dùng để phát hiện, kết nối và giao tiếp với thiết bị BMS, không dùng cho định vị, quảng cáo, theo dõi hoặc phân tích. Nếu hỗ trợ quyền USB hoặc cổng nối tiếp, các quyền đó chỉ dùng cho giao tiếp cục bộ với thiết bị."
+      "text": "Các quyền BLUETOOTH, BLUETOOTH_SCAN và BLUETOOTH_CONNECT chỉ dùng để tìm kiếm, ghép đôi và kết nối bo mạch quản lý pin BMS cục bộ, đồng thời gửi và nhận dữ liệu vận hành như điện áp pin, nhiệt độ và trạng thái cân bằng với thiết bị. Quyền ACCESS_FINE_LOCATION chỉ dùng để hỗ trợ yêu cầu bắt buộc của hệ thống Android 11 trở xuống đối với quét BLE. Ứng dụng không đọc, ghi lại, sử dụng, lưu trữ hoặc tải lên vị trí địa lý thực tế của người dùng. Quyền INTERNET không dùng cho đăng nhập tài khoản, quảng cáo, phân tích thống kê, đồng bộ đám mây hoặc tải dữ liệu người dùng lên máy chủ. Quyền đọc/ghi bộ nhớ chỉ dùng để lưu lịch sử vận hành pin và các tệp cục bộ do người dùng chọn trên thiết bị, không dùng để đồng bộ ra bên ngoài."
     },
     {
       "title": "5. Mục đích sử dụng dữ liệu",
-      "text": "Dữ liệu cục bộ chỉ được dùng để quét và kết nối thiết bị BMS, hiển thị trạng thái pin và BMS theo thời gian thực, đọc hoặc cấu hình thông số BMS, lưu cấu hình cục bộ do người dùng chọn, cải thiện độ ổn định giao tiếp và hỗ trợ gỡ lỗi cục bộ. Ứng dụng không dùng dữ liệu này cho quảng cáo, phân tích thương mại, bán dữ liệu, chia sẻ với bên thứ ba hoặc mục đích không liên quan đến quản lý BMS."
+      "text": "Dữ liệu cục bộ chỉ được dùng để tìm kiếm và kết nối bo mạch quản lý pin BMS, hiển thị trạng thái pin và BMS theo thời gian thực, đọc hoặc cấu hình thông số BMS, lưu cấu hình cục bộ và lịch sử do người dùng chọn, cải thiện độ ổn định giao tiếp Bluetooth và hỗ trợ gỡ lỗi cục bộ. Ứng dụng không dùng dữ liệu này cho quảng cáo, phân tích thương mại, bán dữ liệu, chia sẻ với bên thứ ba hoặc mục đích không liên quan đến quản lý BMS."
     },
     {
       "title": "6. Lưu trữ, xóa và bảo mật",
-      "text": "Dữ liệu vận hành, dữ liệu cấu hình và nhật ký mặc định được lưu cục bộ trên thiết bị của người dùng và được bảo vệ bởi cơ chế sandbox của hệ điều hành. Người dùng có thể xóa dữ liệu cục bộ trong ứng dụng hoặc trong cài đặt hệ thống. Khi gỡ cài đặt, hệ điều hành thường xóa bộ nhớ đệm và cấu hình cục bộ của ứng dụng. Nếu người dùng chủ động xuất hoặc chia sẻ tệp cục bộ, các tệp đó do người dùng tự quản lý."
+      "text": "Dữ liệu vận hành, dữ liệu cấu hình, lịch sử và nhật ký mặc định được lưu cục bộ trên thiết bị của người dùng và được bảo vệ bởi cơ chế sandbox của hệ điều hành. Người dùng có thể xóa dữ liệu cục bộ trong ứng dụng hoặc trong cài đặt hệ thống. Khi gỡ cài đặt, hệ điều hành thường xóa bộ nhớ đệm và cấu hình cục bộ của ứng dụng. Nếu người dùng chủ động xuất hoặc chia sẻ tệp cục bộ, các tệp đó do người dùng tự quản lý."
     },
     {
-      "title": "7. SDK bên thứ ba và chia sẻ dữ liệu",
-      "text": "Phiên bản hiện tại không tích hợp SDK quảng cáo, thống kê, theo dõi, thanh toán, bản đồ, lưu trữ đám mây hoặc phân tích người dùng. Chúng tôi không bán, cho thuê hoặc chia sẻ thông tin cá nhân của người dùng hoặc dữ liệu thiết bị BMS cục bộ với bên thứ ba. Nếu phiên bản tương lai tích hợp dịch vụ bên thứ ba hoặc thay đổi cách xử lý dữ liệu, chúng tôi sẽ cập nhật chính sách này trước khi sử dụng và xin quyền cần thiết theo quy định nền tảng."
+      "title": "7. Tài liệu hỗ trợ do người dùng tự nguyện cung cấp",
+      "text": "Nếu người dùng tự nguyện liên hệ với chúng tôi qua email, điện thoại hoặc phương thức khác và cung cấp ảnh chụp màn hình, nhật ký, dữ liệu thiết bị, mô tả sự cố hoặc thông tin liên hệ, chúng tôi chỉ sử dụng các tài liệu đó cho hỗ trợ kỹ thuật, khắc phục sự cố và trao đổi sau bán hàng. Chúng tôi không dùng chúng cho quảng cáo, lập hồ sơ, bán dữ liệu hoặc mục đích không liên quan đến hỗ trợ. Người dùng có thể yêu cầu xóa tài liệu hỗ trợ đã tự nguyện cung cấp bằng cách liên hệ qua email trong chính sách này."
     },
     {
-      "title": "8. Trẻ em và người chưa thành niên",
-      "text": "Ứng dụng là công cụ chuyên nghiệp cho phát triển, gỡ lỗi, bảo trì và ứng dụng công nghiệp của bo mạch bảo vệ BMS, không hướng đến trẻ em. Chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em. Người chưa thành niên không nên tự sử dụng ứng dụng; nếu cần sử dụng, phải có người giám hộ hoặc người có chuyên môn giám sát."
+      "title": "8. SDK bên thứ ba và chia sẻ dữ liệu",
+      "text": "Phiên bản hiện tại không tích hợp bất kỳ SDK bên thứ ba nào, bao gồm SDK quảng cáo, thống kê, theo dõi, thanh toán, bản đồ, lưu trữ đám mây hoặc phân tích người dùng. Chúng tôi không bán, cho thuê hoặc chia sẻ thông tin cá nhân của người dùng hoặc dữ liệu thiết bị BMS cục bộ với bên thứ ba. Nếu phiên bản tương lai tích hợp dịch vụ bên thứ ba hoặc thay đổi cách xử lý dữ liệu, chúng tôi sẽ cập nhật chính sách này trước khi sử dụng và xin quyền cần thiết theo quy định nền tảng."
     },
     {
-      "title": "9. Quyền của người dùng",
-      "text": "Người dùng có thể xem, sửa, xuất hoặc xóa dữ liệu cấu hình cục bộ có trong ứng dụng, hoặc ngừng sử dụng và gỡ cài đặt ứng dụng. Vì ứng dụng không yêu cầu đăng ký tài khoản và không tự động tải dữ liệu người dùng lên máy chủ, chúng tôi thường không thể nhận diện, truy cập hoặc xóa dữ liệu cục bộ trên thiết bị của người dùng từ phía máy chủ."
+      "title": "9. Trẻ em và người chưa thành niên",
+      "text": "Ứng dụng là công cụ chuyên nghiệp cho phát triển, gỡ lỗi, bảo trì và ứng dụng công nghiệp của bo mạch quản lý pin BMS, không hướng đến trẻ em. Chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em. Người chưa thành niên không nên tự sử dụng ứng dụng; nếu cần sử dụng, phải có người giám hộ hoặc người có chuyên môn giám sát."
     },
     {
-      "title": "10. Cập nhật chính sách",
+      "title": "10. Quyền của người dùng",
+      "text": "Người dùng có thể xem, sửa, xuất hoặc xóa dữ liệu cấu hình cục bộ và lịch sử có trong ứng dụng, hoặc ngừng sử dụng và gỡ cài đặt ứng dụng. Vì ứng dụng không yêu cầu đăng ký tài khoản và không tự động tải dữ liệu người dùng lên máy chủ, chúng tôi thường không thể nhận diện, truy cập hoặc xóa dữ liệu cục bộ trên thiết bị của người dùng từ phía máy chủ. Đối với tài liệu hỗ trợ người dùng tự nguyện gửi cho chúng tôi, người dùng có thể liên hệ qua email để yêu cầu truy cập hoặc xóa."
+    },
+    {
+      "title": "11. Cập nhật chính sách",
       "text": "Chúng tôi có thể cập nhật Chính sách quyền riêng tư này khi chức năng ứng dụng thay đổi, chính sách nền tảng thay đổi hoặc pháp luật yêu cầu. Phiên bản cập nhật sẽ được công bố trên website công ty hoặc trang chính sách quyền riêng tư công khai dùng cho hồ sơ cửa hàng ứng dụng. Việc tiếp tục sử dụng ứng dụng nghĩa là bạn hiểu nội dung đã cập nhật."
     },
     {
-      "title": "11. Luật áp dụng",
-      "text": "Chính sách quyền riêng tư này được điều chỉnh bởi Luật Bảo vệ dữ liệu cá nhân của Việt Nam (Luật số 91/2025/QH15-PDPL) và các quy định pháp luật hiện hành có liên quan của Việt Nam. Vì ứng dụng không thu thập hoặc xử lý bất kỳ dữ liệu nhận dạng cá nhân nào của người dùng, ứng dụng không phải thực hiện thủ tục đăng ký chuyển dữ liệu xuyên biên giới hoặc đánh giá tác động bảo vệ dữ liệu (DPIA)."
+      "title": "12. Luật áp dụng",
+      "text": "Chính sách quyền riêng tư này được điều chỉnh bởi các quy định pháp luật hiện hành có liên quan của Việt Nam. Vì ứng dụng mặc định không tự động thu thập hoặc tải dữ liệu cá nhân của người dùng lên máy chủ, thông thường ứng dụng không liên quan đến xử lý dữ liệu tài khoản người dùng phía máy chủ hoặc chuyển dữ liệu xuyên biên giới. Nếu người dùng tự nguyện cung cấp tài liệu hỗ trợ kỹ thuật cho chúng tôi, chúng tôi chỉ sử dụng trong phạm vi cần thiết để xử lý vấn đề."
     },
     {
-      "title": "12. Khiếu nại của người dùng và thời hạn phản hồi",
-      "text": "Nếu người dùng tại Việt Nam có câu hỏi hoặc khiếu nại về Chính sách quyền riêng tư này hoặc cách thức xử lý dữ liệu của ứng dụng, người dùng có thể liên hệ với chúng tôi qua email hoặc số điện thoại bên dưới. Chúng tôi cam kết phản hồi và xử lý trong vòng 3 ngày làm việc."
+      "title": "13. Khiếu nại của người dùng và thời hạn phản hồi",
+      "text": "Nếu người dùng có câu hỏi hoặc khiếu nại về Chính sách quyền riêng tư này, việc sử dụng quyền hoặc cách thức xử lý dữ liệu, người dùng có thể liên hệ với chúng tôi qua email hoặc số điện thoại bên dưới. Chúng tôi sẽ phản hồi sớm nhất có thể sau khi nhận được yêu cầu hợp lệ và cố gắng xử lý trong vòng 3 ngày làm việc."
     },
     {
-      "title": "13. Liên hệ",
+      "title": "14. Liên hệ",
       "text": "Công ty: CÔNG TY TNHH THIẾT BỊ ĐIỆN TỬ DJ / DJ ELECTRONICS CO., LTD. Email: congtytnhhthietbidientudj@gmail.com. Điện thoại: +84 963 162 922. Địa chỉ: Số nhà 083, phố Tuệ Tĩnh, tổ 10 Kim Tân, Phường Lào Cai, Tỉnh Lào Cai, Việt Nam."
     }
   ]
